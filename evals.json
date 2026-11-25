@@ -1,0 +1,135 @@
+[
+  {
+    "question": "How many hours of office clock-in must an associate complete each day?",
+    "expect": [
+      [
+        "9 hours"
+      ]
+    ],
+    "source": "Email - 3. Less than 9 Hours Clock-in"
+  },
+  {
+    "question": "What is the payroll cut-off date every month?",
+    "expect": [
+      [
+        "21st"
+      ]
+    ],
+    "source": "Email - 6. Exceptions (last paragraph)"
+  },
+  {
+    "question": "Who is eligible for the five-day work week?",
+    "expect": [
+      [
+        "G5"
+      ]
+    ],
+    "source": "Email - 1. Eligibility"
+  },
+  {
+    "question": "What happens to days that are not regularized and have no leave applied?",
+    "expect": [
+      [
+        "LOP",
+        "loss of pay"
+      ]
+    ],
+    "source": "Email - 5. Salary Impact"
+  },
+  {
+    "question": "Who must approve exceptions to the five-day work week?",
+    "expect": [
+      [
+        "Reporting Manager"
+      ],
+      [
+        "Business Head"
+      ],
+      [
+        "HRBP"
+      ]
+    ],
+    "source": "Email - 6. Exceptions"
+  },
+  {
+    "question": "How should I mark attendance when I am working from a client site?",
+    "expect": [
+      [
+        "on-site",
+        "onsite",
+        "on site"
+      ]
+    ],
+    "source": "Email - 4. Client Site Guidelines"
+  },
+  {
+    "question": "Within how many days should a regularization request be performed?",
+    "expect": [
+      [
+        "15 days"
+      ]
+    ],
+    "source": "Regularization manual - B. Pre-requisites"
+  },
+  {
+    "question": "What is the minimum biometric attendance needed to apply for regularization?",
+    "expect": [
+      [
+        "7 hours"
+      ]
+    ],
+    "source": "Regularization manual - B. Pre-requisites"
+  },
+  {
+    "question": "When should I use the Missed to Swipe option?",
+    "expect": [
+      [
+        "either"
+      ],
+      [
+        "in-time",
+        "out-time",
+        "swipe"
+      ]
+    ],
+    "source": "Regularization manual - A. Preface"
+  },
+  {
+    "question": "For India associates, what is the maximum number of normal hours in a timecard per day?",
+    "expect": [
+      [
+        "9 hours",
+        "9 normal hours"
+      ]
+    ],
+    "source": "Timecard manual - Timecard Submission"
+  },
+  {
+    "question": "Who do I contact if the task I need is not in the timecard dropdown?",
+    "expect": [
+      [
+        "RMG"
+      ]
+    ],
+    "source": "Timecard manual - Timecard Submission"
+  },
+  {
+    "question": "What happens to a claim after the manager approves it?",
+    "expect": [
+      [
+        "finance"
+      ]
+    ],
+    "source": "Claims workflow diagram"
+  },
+  {
+    "question": "How many casual leaves do I get in a year?",
+    "expect_not_found": true,
+    "source": "Not in the documents - assistant must say it cannot find it"
+  },
+  {
+    "question": "What is the maternity leave policy?",
+    "expect_not_found": true,
+    "source": "Not in the documents - assistant must say it cannot find it"
+  }
+]

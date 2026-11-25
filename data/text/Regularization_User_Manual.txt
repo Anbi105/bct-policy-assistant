@@ -1,0 +1,72 @@
+DO.070 Regularization -
+User Manual
+Document information: Document Name | Regularization
+Document information: Version Number | V1.0
+Document information: Release Date | 25-09-2025
+Document information: Author | Madesh S
+Table of Contents
+A. Preface:
+Attendance regularization is process performed by Associates to correct /justify their attendance shortfall when compared to the expected work hours.
+ATTENDANCE REGULARIZATION OPTIONS:
+Regularization
+Work From Home
+On-site
+Comp-off
+Forgot ID Card
+Missed to Swipe
+Regularization:
+Regularization Request should be performed by associates with due justification, for shortfall in Bio-metric hours / attendance hours recorded is less than ‘9’.
+Work from home:
+Work from home is to be Applied by associates as a request to perform their official duties remotely/ from their home.
+On-site:
+On site to be applied if the Associate is working from client location, which is different from their base office. Bio-metric attendance is not applicable when the Associate is on an approved-on site assignment.
+Forgot-id card:
+When Associates forgets to bring the Access Card/ID Card when reporting to office for a specific date, then Forgot id card to be used to Regularize Bio-metric details.
+Missed to Swipe:
+Missed to swipe is to be applied by Associate, when either ‘In-time’ or ‘Out-time’ swipe was missed by the Associates., but not both.
+B.  Pre-requisites:
+Regularization:
+Biometric attendance duration should be less than 9 hours.
+Minimum Biometric attendance should be greater than 7 hours to apply regularization.
+Regularization should be performed within 15 days.
+Work from home, Forgot id card and On-site:
+For work from home, forgot id card and On-site bio metric attendance will not be available. If available, then the associate will not be eligible for these three types of requests.
+Missed to swipe:
+Missed to swipe can be applied, only if the associate has either a bio-metric in or Bio-metric out time.
+C. Workflow:
+D. Sequence of steps and actions:
+Login into BCT one login portal and choose oracle EBS.
+[Screenshot] Frequents Company: BCT BCT Intranet BCT Knowledge Hub eBuddy xOx empuls Tus R.E.A.P TMS 2.0 ORACLE E-BUSINESS SUITE Oracle E ORACLE FUSION APPLICATIONS Oracle Fusion HCM
+Once successfully logged-in, In the Navigation Pane select, “Regularization” Responsibility. Choose regularization and then click attendance details. You will be redirected to regularization screen accordingly.
+[Screenshot] Navigator Personalize BCT Reimbursement Claim Employee BCT Shift Allowance Access Employee [8 Regularization Attendance Details Ee Comp-Off Request Week-Off Entries >i Update Employee Information
+[Screenshot] Regularization Logged In As: Start Date fe End Date fe Transaction Type Regularization v Show Attendance 116092
+Select applicable Start Date, End Date and Transaction Type as required.
+On selecting ‘Show Attendance’, the user will be able to see their bio metric details in this page.
+To Apply
+Regularization:
+Choose the start date and end date and select transaction type as “Regularization”, then click ‘Show Attendance’, button;
+Against respective rows select ‘Approval Request’, update ’Reason’ as applicable. and then  select ’Submit for Approval’.
+[Screenshot] Regularization 116092 Start Date 13-Aug-2025 fe End Date 13-Aug-2025 te Transaction Type Regularization v Show Attendance Submit For Approvals Clear Naas Date In-Time Out-Time Attendence Total Hours Leave RquestID Leave Type Leave Status Approval Request Reason Approved Status Regularization Request 13-Aug-2025, Wednesday 09:39 16:53 7:14
+2. Work from home:
+Choose the start date and end date and select transaction as “Work from home", then click show attendance.
+Enter the reason.
+Select the applicable ‘Shift’ (which is mandatory) then click submit for approvals.
+[Screenshot] Regularization LoggedinAs: 116092 Start Date 22-Aug-2025 te From Session Full Day v End Date 22-Aug-2025 te To Session Full Day v Transaction Type Work from Home v Choose Shift [General Shift v Shift Details cannot be changed once it is submitted. Shift Start Time 98:30 Shift End Time 18:00 Show Attendance Submit For Approvals Clear ooo Start Date End Date Transaction Type Request Id Reason Work from home test 22-Aug-2025 22-Aug-2025 WFH WFH1160921756364457370 Cancelled Transactions Start Date End Date Transaction Type Request Id Reason No results found. Approved Status Approved Status Approver Name
+3. On-Site:
+Choose the start date and end date, select transaction as “On-site”, then click show attendance.
+Enter the reason.
+Choose Applicable shift (Which is mandatory) then click ‘Submit for Approvals’ button.
+[Screenshot] Regularization Start Date 22-Aug-2025 fe From Session End Date 22-Aug-2025 te To Session Transaction Type OD-Onsite v Choose Shift Shift Start Time Shift End Time Show Attendance Submit For Approvals Clear ooo Start Date End Date Transaction Type 22-Aug-2025 22-Aug-2025 ODO Cancelled Transactions Start Date End Date No results found. Full Day v Full Day v General Shift v LoggedinAs: 116092 Shift Details cannot be changed once it is submitted. 08:30 18:00 Request Id 0D01160921756364807254 Transaction Type Reason ON-SITE request Request Id Reason Approved Status Approved Status Approver Name
+4. Forgot id card:
+Choose the start date and end date and select transaction as “Forgot ID card”, then click ‘Show Attendance’ button.
+Enter the reason.
+Choose the shift (shift is mandatory) then click ‘Submit for Approvals’ button.
+[Screenshot] Regularization Start Date From Session End Date 26-Aug-2025 26-Aug-2025 ForgotIDcard vw ic) fe To Session Transaction Type Choose Shift Shift Start Time Shift End Time Show Attendance Submit For Approvals Clear ooo Start Date End Date Transaction Type 26-Aug-2025 26-Aug-2025 FIC Cancelled Transactions Start Date End Date No results found. Transaction Type LoggedinAs: 116092 Full Day v Full Day v General Shift v Shift Details cannot be changed once it is submitted. 08:30 18:00 Request Id Reason Forgot id card request FIC1160921756376062744 Request Id Reason Approved Status Approved Status Approver Name
+5. Missed to swipe:
+Choose the start date and end date and select Transaction Type as “Missed to swipe", then click ‘Show Attendance’ button.
+[Screenshot] Regularization LoggedinAs: 116092 Start Date 17-Jul-2025 ic) End Date 17-Jul-2025 fe Transaction Type Missedto Swipe v Show Attendance Clear Date Time Out Time Attendence Total Hours Leave Rquest ID Leave Type Leave Status Approval Request Reason Approved Status 17-Jul-2025, Thursday 09:57 Q 12:35 Q 03:38 oO
+Edit the ‘Sign in’ in or ‘Sign out’ time as applicable when the ‘swipe was missed’,
+Select the approval request checkbox.
+[Screenshot] Regularization LoggedinAs: 116092 Start Date 17-Jul-2025 fe End Date 17-Jul-2025 te Transaction Type Missedto Swipe v Show Attendance Clear Date Time Out Time Attendence Total Hours Leave Rquest ID Leave Type Leave Status Approval Request Reason Approved Status 17-Jul-2025, Thursday 09:57 Q Q 10:38 O Time 20:34
+Enter ‘Reason’ and click ‘Submit for Approvals’ button.
+[Screenshot] Regularization LoggedinAs: 116092 Start Date 17-Jul-2025 End Date 17-Jul-2025 te Transaction Type Missedto Swipe v Show Attendance Submit For Approvals Clear Date Time Out Time Attendence Total Hours Leave Rquest ID Leave Type Leave Status Approval Request Reason Approved Status MTS request 17-Jul-2025, Thursday 09:57 Q 20:34 Q 10:37

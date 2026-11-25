@@ -1,0 +1,516 @@
+{
+  "embed_model": "BAAI/bge-small-en-v1.5",
+  "chunks": [
+    {
+      "id": "claims-user-manual-01",
+      "source": "Claims_User_Manual",
+      "doc_title": "Claims User Manual",
+      "section": "Introduction",
+      "text": "[Claims User Manual | Introduction]\nDO.070 Claim Application –\nUser Manual"
+    },
+    {
+      "id": "claims-user-manual-02",
+      "source": "Claims_User_Manual",
+      "doc_title": "Claims User Manual",
+      "section": "A. Preface",
+      "text": "[Claims User Manual | A. Preface]\nThis manual serves as a comprehensive guide to assist the Associates in the respective claim process, it outlines the necessary sequential steps to be completed and the due Approval flow, unto claim settlement."
+    },
+    {
+      "id": "claims-user-manual-03",
+      "source": "Claims_User_Manual",
+      "doc_title": "Claims User Manual",
+      "section": "B. Pre-requisites for initiating a Claim",
+      "text": "[Claims User Manual | B. Pre-requisites for initiating a Claim]\nEnsure you are eligible as per the policy to avail any specific type of claim, for more details on eligibility please review the claim policy/contact BU HR for any clarifications.\nNecessary claim details are in place including proof to be attached/uploaded with the claim.\nProject related claims have to be claimed only against a project, ensure you are mapped/allocated to that project."
+    },
+    {
+      "id": "claims-user-manual-04",
+      "source": "Claims_User_Manual",
+      "doc_title": "Claims User Manual",
+      "section": "C. Process Workflow > Screenshots (OCR)",
+      "text": "[Claims User Manual | C. Process Workflow > Screenshots (OCR)]\n[Screenshot] Approve claim (Approval iterations willbe performed per approval level Provide the claim details in respective Save and submit claim for approval Ps] feilds as applicable Ensure Click on new claim attachments are uploaded and saved Finance team approval Yes cess payment END and validation"
+    },
+    {
+      "id": "claims-user-manual-05",
+      "source": "Claims_User_Manual",
+      "doc_title": "Claims User Manual",
+      "section": "D. Sequence of steps and actions for Claim Creation > Navigation",
+      "text": "[Claims User Manual | D. Sequence of steps and actions for Claim Creation > Navigation]\nLogin into BCT one login portal and choose oracle EBS.\nOnce successfully logged-in, In the Navigation Pane select, BCT employee claim search"
+    },
+    {
+      "id": "claims-user-manual-06",
+      "source": "Claims_User_Manual",
+      "doc_title": "Claims User Manual",
+      "section": "D. Sequence of steps and actions for Claim Creation > Navigation > Screenshots (OCR)",
+      "text": "[Claims User Manual | D. Sequence of steps and actions for Claim Creation > Navigation > Screenshots (OCR)]\n[Screenshot] Frequents Company: BCT BCT Intranet BCT Knowledge Hub eBuddy xOx empuls Tus R.E.A.P TMS 2.0 ORACLE E-BUSINESS SUITE Oracle E ORACLE FUSION APPLICATIONS Oracle Fusion HCM\n[Screenshot] Navigator Personalize 4 BCT Reimbursement Claim Employee BCT Employee Claim Search i BCT Shift Allowance Access Employee i Regularization Update Employee Information"
+    },
+    {
+      "id": "claims-user-manual-07",
+      "source": "Claims_User_Manual",
+      "doc_title": "Claims User Manual",
+      "section": "D. Sequence of steps and actions for Claim Creation > Claim Reimbursement Dashboard",
+      "text": "[Claims User Manual | D. Sequence of steps and actions for Claim Creation > Claim Reimbursement Dashboard]\nBy default, this UI will list out the claim(s) applied by the associate so far.\nTo create new claims, ‘Select’ create button; which will redirect to claim creation dashboard."
+    },
+    {
+      "id": "claims-user-manual-08",
+      "source": "Claims_User_Manual",
+      "doc_title": "Claims User Manual",
+      "section": "D. Sequence of steps and actions for Claim Creation > Claim Reimbursement Dashboard > Screenshots (OCR)",
+      "text": "[Claims User Manual | D. Sequence of steps and actions for Claim Creation > Claim Reimbursement Dashboard > Screenshots (OCR)]\n[Screenshot] ORACLE Claim Employee Logged InAs 116039 Search Reimbursement Claims Operating Unit Bahwan CyberTek Private Limited (COE) Currency Code INR Claim Number Q Claim From Date Claim To Date Claim Type Go Clear Nature Ww Approval Approval Approval Payment Claim Number Claim Date Claim Type Of Status Status Pending Pending Levels Claim Last Update Date Claim Payment Date Status Remz Claim With Level No results found. Copyright (c) 1998, 2020, Oracle and/or its affiliates. All rights reserved. About this Page Privacy Statement"
+    },
+    {
+      "id": "claims-user-manual-09",
+      "source": "Claims_User_Manual",
+      "doc_title": "Claims User Manual",
+      "section": "D. Sequence of steps and actions for Claim Creation > Entering a Claim",
+      "text": "[Claims User Manual | D. Sequence of steps and actions for Claim Creation > Entering a Claim]\nAfter selecting ‘Create’ button, the default details of the Employee, Entity, currency gets populated with the claim date.\nThen select the ‘claim type’ which will default the claim number as well, to enter claim details, select ‘Add New Row’ button\nThe default details for respective claims will be displayed, for few types of claims like certifications, local conveyance, project expenses/get-together additional details as applicable to be update by the Associate.\nOnce details are updated, select ‘Save’, button which will prompt a dialogue box with claim details.\nReview the correctness of claim details, click on ‘Ok’ or ‘Cancel’ button as applicable.\nOn claim submission using the dialogue box, the page redirects to the Dashboard, with the claim status and Approval info."
+    },
+    {
+      "id": "claims-user-manual-10",
+      "source": "Claims_User_Manual",
+      "doc_title": "Claims User Manual",
+      "section": "D. Sequence of steps and actions for Claim Creation > Entering a Claim > Screenshots (OCR)",
+      "text": "[Claims User Manual | D. Sequence of steps and actions for Claim Creation > Entering a Claim > Screenshots (OCR)]\n[Screenshot] ORACLE BCT Reimbursement Claim Employee A k& 116039 Reimbursement Save Submit Cancel Operating Unit Bahwan CyberTek Private Limited (COE) Employee Number 116039 Currency Code INR Status Claim Number project No (P7886 Q Claim Date Claim Received Date Project Number Project Name Claim Payment Date Claim Type No Items found Nature of Claim Employee Name _Bhargav Shankar Add New Row ees Particluars From Date *To Date Amount Attachments Delete No search conducted. Copyright (c) 1998, 2020, Oracle and/or its affiliates. All rights reserved. About this Page Privacy Statement"
+    },
+    {
+      "id": "claims-user-manual-11",
+      "source": "Claims_User_Manual",
+      "doc_title": "Claims User Manual",
+      "section": "D. Sequence of steps and actions for Claim Creation > Entering a Claim > Screenshots (OCR)",
+      "text": "[Claims User Manual | D. Sequence of steps and actions for Claim Creation > Entering a Claim > Screenshots (OCR)]\n[Screenshot] ORACLE BCT Reimbursement Claim Employee A k& 116039 Reimbursement Save Submit Cancel Operating Unit Bahwan CyberTek Private Limited (COE) Employee Number 116039 Currency Code INR Status Claim Number project No (P7886 Q Claim Date Claim Received Date Project Number Project Name Claim Payment Date Claim Type No Items found Nature of Claim Employee Name _Bhargav Shankar Add New Row ees Particluars From Date *To Date Amount Attachments Delete No search conducted. Copyright (c) 1998, 2020, Oracle and/or its affiliates. All rights reserved. About this Page Privacy Statement\n[Screenshot] ORACLE Logged in As 112907 Reimbursement Submit Cancel Operating Unit Sshwan CyberTek Private Limited (COE) Employee Number 112907 Currency Code INR Status Claim Number 120/2025-2026/28128 *projectNo 99357 Q claim Date 29-Aug-2025 t Claim Recetved Date Claim Type New Born Baby v Claim Payment Date Nature of Claim New Born Baby Budget Allowed Emptoyee Name) Mr. Jeyaram Sethursj Add New Row Particluars “To Date From Date Amount Attachments Delete 20-Aug-2025 te 16-Aug-2025 te 100 B Table Diagnostics 100 Information You are submitting the reimbursement cialm for the clalm date 2025-08-23 with claim detalls ae: Clalm Type: New Born Baby Claim Amount: 100.0 “Cancel Ok"
+    },
+    {
+      "id": "claims-user-manual-12",
+      "source": "Claims_User_Manual",
+      "doc_title": "Claims User Manual",
+      "section": "D. Sequence of steps and actions for Claim Creation > Entering a Claim > Screenshots (OCR)",
+      "text": "[Claims User Manual | D. Sequence of steps and actions for Claim Creation > Entering a Claim > Screenshots (OCR)]\n[Screenshot] ORACLE Logged in As 112907 Reimbursement Submit Cancel Operating Unit Sshwan CyberTek Private Limited (COE) Employee Number 112907 Currency Code INR Status Claim Number 120/2025-2026/28128 *projectNo 99357 Q claim Date 29-Aug-2025 t Claim Recetved Date Claim Type New Born Baby v Claim Payment Date Nature of Claim New Born Baby Budget Allowed Emptoyee Name) Mr. Jeyaram Sethursj Add New Row Particluars “To Date From Date Amount Attachments Delete 20-Aug-2025 te 16-Aug-2025 te 100 B Table Diagnostics 100 Information You are submitting the reimbursement cialm for the clalm date 2025-08-23 with claim detalls ae: Clalm Type: New Born Baby Claim Amount: 100.0 “Cancel Ok\n[Screenshot] Search Reimbursement Claims Claim Number Claim 120/2025-2026/28140 29-Aug-2025 Table Diagnostics Claim Type New Born Baby Operating Unit Currency Code Claim Number From Date Ctalm To Date Clalm Type Nature Of WF Claim 85 status Submitied Bahwan CyberTek Linited (COE) INR Go Clear Approval Approval Claim Last Update Approval Pending With Pending Level Levels Date Claim Payment Date Status Remarks nar R MWLaksheni Subramanian/Mr. Varoon gandhi/Snehas S/Sunitha HR to 29-Aug-2025 2"
+    },
+    {
+      "id": "claims-user-manual-13",
+      "source": "Claims_User_Manual",
+      "doc_title": "Claims User Manual",
+      "section": "Document information",
+      "text": "[Claims User Manual | Document information]\nDocument Name | Claims User Manual\nVersion Number | V1.0\nRelease Date\nAuthor | Bhargav Shankar"
+    },
+    {
+      "id": "email-5-day-work-week-effectiv-01",
+      "source": "Email_5_Day_Work_Week_Effective_15_July_2026",
+      "doc_title": "Email 5 Day Work Week Effective 15 July 2026",
+      "section": "Email details",
+      "text": "[Email 5 Day Work Week Effective 15 July 2026 | Email details]\nSubject: Update: 5 Day Work Week - Effective 15 July 2026\nFrom: BCT-HR4u <BCT-HR4u@bahwancybertek.com>\nDate: Wed, 24 Jun 2026 04:54:13 +0000\nDear BCTians,\nOver the past few years, we have demonstrated remarkable resilience and adaptability in the way we work. As we continue to evolve as an organization, it is equally important that we strengthen how we collaborate, connect, and build our shared culture, while also driving greater consistency and productivity across our teams.\nWith this in mind, we will be transitioning to a five-day work week effective 15 July 2026, as part of our return-to-office framework. This step reflects our commitment to fostering stronger teamwork, enabling faster decision-making, and supporting a more productive and engaging workplace for all.\nTo support this transition, below are a quick set of guidelines to ensure consistency, fairness, and operational effectiveness across the organization:"
+    },
+    {
+      "id": "email-5-day-work-week-effectiv-02",
+      "source": "Email_5_Day_Work_Week_Effective_15_July_2026",
+      "doc_title": "Email 5 Day Work Week Effective 15 July 2026",
+      "section": "1. Eligibility",
+      "text": "[Email 5 Day Work Week Effective 15 July 2026 | 1. Eligibility]\n- G5 and above across all functions\n- All enabler/support function associates across all grades (including contractors)"
+    },
+    {
+      "id": "email-5-day-work-week-effectiv-03",
+      "source": "Email_5_Day_Work_Week_Effective_15_July_2026",
+      "doc_title": "Email 5 Day Work Week Effective 15 July 2026",
+      "section": "2. Mandate Attendance Regularization",
+      "text": "[Email 5 Day Work Week Effective 15 July 2026 | 2. Mandate Attendance Regularization]\nAttendance application is mandatory for all working days. Only past and current dates may be regularized. Future dates are not permitted in the tool."
+    },
+    {
+      "id": "email-5-day-work-week-effectiv-04",
+      "source": "Email_5_Day_Work_Week_Effective_15_July_2026",
+      "doc_title": "Email 5 Day Work Week Effective 15 July 2026",
+      "section": "3. Less than 9 Hours Clock-in",
+      "text": "[Email 5 Day Work Week Effective 15 July 2026 | 3. Less than 9 Hours Clock-in]\nAssociates must regularize any shortage in completing 9 hours of office clock-in - This is applicable only for less than 2 hours of regularization per day."
+    },
+    {
+      "id": "email-5-day-work-week-effectiv-05",
+      "source": "Email_5_Day_Work_Week_Effective_15_July_2026",
+      "doc_title": "Email 5 Day Work Week Effective 15 July 2026",
+      "section": "4. Client Site Guidelines",
+      "text": "[Email 5 Day Work Week Effective 15 July 2026 | 4. Client Site Guidelines]\nAssociates working from or visiting client site must mark attendance as ON-SITE while updating their records in EBS"
+    },
+    {
+      "id": "email-5-day-work-week-effectiv-06",
+      "source": "Email_5_Day_Work_Week_Effective_15_July_2026",
+      "doc_title": "Email 5 Day Work Week Effective 15 July 2026",
+      "section": "5. Salary Impact",
+      "text": "[Email 5 Day Work Week Effective 15 July 2026 | 5. Salary Impact]\nAny days that have not been regularized, or without applied leave will be treated as LOP, and deductions would be made accordingly."
+    },
+    {
+      "id": "email-5-day-work-week-effectiv-07",
+      "source": "Email_5_Day_Work_Week_Effective_15_July_2026",
+      "doc_title": "Email 5 Day Work Week Effective 15 July 2026",
+      "section": "6. Exceptions",
+      "text": "[Email 5 Day Work Week Effective 15 July 2026 | 6. Exceptions]\nExceptions due to personal, medical, or emergency situations must be proactively communicated and approved by the Reporting Manager, Business Head, and HRBP. Exceptions will only be considered with explicit business and HRBP approval.\nPlease note that the payroll cut-off date would be 21st of every month and therefore we request you to regularize your attendance on or before 21st of every month.\nThis transition reinforces consistency, accountability, and how we show up for one another to deliver our best work every day. Your partnership in making this successful is essential.\nPlease reach out to your Reporting Manager or HRBP team, in case of any questions or support required!"
+    },
+    {
+      "id": "regularization-user-manual-01",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "Introduction",
+      "text": "[Regularization User Manual | Introduction]\nDO.070 Regularization -\nUser Manual"
+    },
+    {
+      "id": "regularization-user-manual-02",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "A. Preface",
+      "text": "[Regularization User Manual | A. Preface]\nAttendance regularization is process performed by Associates to correct /justify their attendance shortfall when compared to the expected work hours."
+    },
+    {
+      "id": "regularization-user-manual-03",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "A. Preface > ATTENDANCE REGULARIZATION OPTIONS",
+      "text": "[Regularization User Manual | A. Preface > ATTENDANCE REGULARIZATION OPTIONS]\nRegularization\nWork From Home\nOn-site\nComp-off\nForgot ID Card\nMissed to Swipe"
+    },
+    {
+      "id": "regularization-user-manual-04",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "A. Preface > Regularization",
+      "text": "[Regularization User Manual | A. Preface > Regularization]\nRegularization Request should be performed by associates with due justification, for shortfall in Bio-metric hours / attendance hours recorded is less than ‘9’."
+    },
+    {
+      "id": "regularization-user-manual-05",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "A. Preface > Work from home",
+      "text": "[Regularization User Manual | A. Preface > Work from home]\nWork from home is to be Applied by associates as a request to perform their official duties remotely/ from their home."
+    },
+    {
+      "id": "regularization-user-manual-06",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "A. Preface > On-site",
+      "text": "[Regularization User Manual | A. Preface > On-site]\nOn site to be applied if the Associate is working from client location, which is different from their base office. Bio-metric attendance is not applicable when the Associate is on an approved-on site assignment."
+    },
+    {
+      "id": "regularization-user-manual-07",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "A. Preface > Forgot-id card",
+      "text": "[Regularization User Manual | A. Preface > Forgot-id card]\nWhen Associates forgets to bring the Access Card/ID Card when reporting to office for a specific date, then Forgot id card to be used to Regularize Bio-metric details."
+    },
+    {
+      "id": "regularization-user-manual-08",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "A. Preface > Missed to Swipe",
+      "text": "[Regularization User Manual | A. Preface > Missed to Swipe]\nMissed to swipe is to be applied by Associate, when either ‘In-time’ or ‘Out-time’ swipe was missed by the Associates., but not both."
+    },
+    {
+      "id": "regularization-user-manual-09",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "B. Pre-requisites > Regularization",
+      "text": "[Regularization User Manual | B. Pre-requisites > Regularization]\nBiometric attendance duration should be less than 9 hours.\nMinimum Biometric attendance should be greater than 7 hours to apply regularization.\nRegularization should be performed within 15 days."
+    },
+    {
+      "id": "regularization-user-manual-10",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "B. Pre-requisites > Work from home, Forgot id card and On-site",
+      "text": "[Regularization User Manual | B. Pre-requisites > Work from home, Forgot id card and On-site]\nFor work from home, forgot id card and On-site bio metric attendance will not be available. If available, then the associate will not be eligible for these three types of requests."
+    },
+    {
+      "id": "regularization-user-manual-11",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "B. Pre-requisites > Missed to swipe",
+      "text": "[Regularization User Manual | B. Pre-requisites > Missed to swipe]\nMissed to swipe can be applied, only if the associate has either a bio-metric in or Bio-metric out time."
+    },
+    {
+      "id": "regularization-user-manual-12",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "D. Sequence of steps and actions",
+      "text": "[Regularization User Manual | D. Sequence of steps and actions]\nLogin into BCT one login portal and choose oracle EBS.\nOnce successfully logged-in, In the Navigation Pane select, “Regularization” Responsibility. Choose regularization and then click attendance details. You will be redirected to regularization screen accordingly.\nSelect applicable Start Date, End Date and Transaction Type as required.\nOn selecting ‘Show Attendance’, the user will be able to see their bio metric details in this page.\nTo Apply"
+    },
+    {
+      "id": "regularization-user-manual-13",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "D. Sequence of steps and actions > Screenshots (OCR)",
+      "text": "[Regularization User Manual | D. Sequence of steps and actions > Screenshots (OCR)]\n[Screenshot] Frequents Company: BCT BCT Intranet BCT Knowledge Hub eBuddy xOx empuls Tus R.E.A.P TMS 2.0 ORACLE E-BUSINESS SUITE Oracle E ORACLE FUSION APPLICATIONS Oracle Fusion HCM\n[Screenshot] Navigator Personalize BCT Reimbursement Claim Employee BCT Shift Allowance Access Employee [8 Regularization Attendance Details Ee Comp-Off Request Week-Off Entries >i Update Employee Information\n[Screenshot] Regularization Logged In As: Start Date fe End Date fe Transaction Type Regularization v Show Attendance 116092"
+    },
+    {
+      "id": "regularization-user-manual-14",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "D. Sequence of steps and actions > Regularization",
+      "text": "[Regularization User Manual | D. Sequence of steps and actions > Regularization]\nChoose the start date and end date and select transaction type as “Regularization”, then click ‘Show Attendance’, button;\nAgainst respective rows select ‘Approval Request’, update ’Reason’ as applicable. and then select ’Submit for Approval’."
+    },
+    {
+      "id": "regularization-user-manual-15",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "D. Sequence of steps and actions > Regularization > Screenshots (OCR)",
+      "text": "[Regularization User Manual | D. Sequence of steps and actions > Regularization > Screenshots (OCR)]\n[Screenshot] Regularization 116092 Start Date 13-Aug-2025 fe End Date 13-Aug-2025 te Transaction Type Regularization v Show Attendance Submit For Approvals Clear Naas Date In-Time Out-Time Attendence Total Hours Leave RquestID Leave Type Leave Status Approval Request Reason Approved Status Regularization Request 13-Aug-2025, Wednesday 09:39 16:53 7:14"
+    },
+    {
+      "id": "regularization-user-manual-16",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "2. Work from home",
+      "text": "[Regularization User Manual | 2. Work from home]\nChoose the start date and end date and select transaction as “Work from home\", then click show attendance.\nEnter the reason.\nSelect the applicable ‘Shift’ (which is mandatory) then click submit for approvals."
+    },
+    {
+      "id": "regularization-user-manual-17",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "2. Work from home > Screenshots (OCR)",
+      "text": "[Regularization User Manual | 2. Work from home > Screenshots (OCR)]\n[Screenshot] Regularization LoggedinAs: 116092 Start Date 22-Aug-2025 te From Session Full Day v End Date 22-Aug-2025 te To Session Full Day v Transaction Type Work from Home v Choose Shift [General Shift v Shift Details cannot be changed once it is submitted. Shift Start Time 98:30 Shift End Time 18:00 Show Attendance Submit For Approvals Clear ooo Start Date End Date Transaction Type Request Id Reason Work from home test 22-Aug-2025 22-Aug-2025 WFH WFH1160921756364457370 Cancelled Transactions Start Date End Date Transaction Type Request Id Reason No results found. Approved Status Approved Status Approver Name"
+    },
+    {
+      "id": "regularization-user-manual-18",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "3. On-Site",
+      "text": "[Regularization User Manual | 3. On-Site]\nChoose the start date and end date, select transaction as “On-site”, then click show attendance.\nEnter the reason.\nChoose Applicable shift (Which is mandatory) then click ‘Submit for Approvals’ button."
+    },
+    {
+      "id": "regularization-user-manual-19",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "3. On-Site > Screenshots (OCR)",
+      "text": "[Regularization User Manual | 3. On-Site > Screenshots (OCR)]\n[Screenshot] Regularization Start Date 22-Aug-2025 fe From Session End Date 22-Aug-2025 te To Session Transaction Type OD-Onsite v Choose Shift Shift Start Time Shift End Time Show Attendance Submit For Approvals Clear ooo Start Date End Date Transaction Type 22-Aug-2025 22-Aug-2025 ODO Cancelled Transactions Start Date End Date No results found. Full Day v Full Day v General Shift v LoggedinAs: 116092 Shift Details cannot be changed once it is submitted. 08:30 18:00 Request Id 0D01160921756364807254 Transaction Type Reason ON-SITE request Request Id Reason Approved Status Approved Status Approver Name"
+    },
+    {
+      "id": "regularization-user-manual-20",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "4. Forgot id card",
+      "text": "[Regularization User Manual | 4. Forgot id card]\nChoose the start date and end date and select transaction as “Forgot ID card”, then click ‘Show Attendance’ button.\nEnter the reason.\nChoose the shift (shift is mandatory) then click ‘Submit for Approvals’ button."
+    },
+    {
+      "id": "regularization-user-manual-21",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "4. Forgot id card > Screenshots (OCR)",
+      "text": "[Regularization User Manual | 4. Forgot id card > Screenshots (OCR)]\n[Screenshot] Regularization Start Date From Session End Date 26-Aug-2025 26-Aug-2025 ForgotIDcard vw ic) fe To Session Transaction Type Choose Shift Shift Start Time Shift End Time Show Attendance Submit For Approvals Clear ooo Start Date End Date Transaction Type 26-Aug-2025 26-Aug-2025 FIC Cancelled Transactions Start Date End Date No results found. Transaction Type LoggedinAs: 116092 Full Day v Full Day v General Shift v Shift Details cannot be changed once it is submitted. 08:30 18:00 Request Id Reason Forgot id card request FIC1160921756376062744 Request Id Reason Approved Status Approved Status Approver Name"
+    },
+    {
+      "id": "regularization-user-manual-22",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "5. Missed to swipe",
+      "text": "[Regularization User Manual | 5. Missed to swipe]\nChoose the start date and end date and select Transaction Type as “Missed to swipe\", then click ‘Show Attendance’ button.\nEdit the ‘Sign in’ in or ‘Sign out’ time as applicable when the ‘swipe was missed’,\nSelect the approval request checkbox.\nEnter ‘Reason’ and click ‘Submit for Approvals’ button."
+    },
+    {
+      "id": "regularization-user-manual-23",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "5. Missed to swipe > Screenshots (OCR)",
+      "text": "[Regularization User Manual | 5. Missed to swipe > Screenshots (OCR)]\n[Screenshot] Regularization LoggedinAs: 116092 Start Date 17-Jul-2025 ic) End Date 17-Jul-2025 fe Transaction Type Missedto Swipe v Show Attendance Clear Date Time Out Time Attendence Total Hours Leave Rquest ID Leave Type Leave Status Approval Request Reason Approved Status 17-Jul-2025, Thursday 09:57 Q 12:35 Q 03:38 oO\n[Screenshot] Regularization LoggedinAs: 116092 Start Date 17-Jul-2025 fe End Date 17-Jul-2025 te Transaction Type Missedto Swipe v Show Attendance Clear Date Time Out Time Attendence Total Hours Leave Rquest ID Leave Type Leave Status Approval Request Reason Approved Status 17-Jul-2025, Thursday 09:57 Q Q 10:38 O Time 20:34\n[Screenshot] Regularization LoggedinAs: 116092 Start Date 17-Jul-2025 End Date 17-Jul-2025 te Transaction Type Missedto Swipe v Show Attendance Submit For Approvals Clear Date Time Out Time Attendence Total Hours Leave Rquest ID Leave Type Leave Status Approval Request Reason Approved Status MTS request 17-Jul-2025, Thursday 09:57 Q 20:34 Q 10:37"
+    },
+    {
+      "id": "regularization-user-manual-24",
+      "source": "Regularization_User_Manual",
+      "doc_title": "Regularization User Manual",
+      "section": "Document information",
+      "text": "[Regularization User Manual | Document information]\nDocument Name | Regularization\nVersion Number | V1.0\nRelease Date | 25-09-2025\nAuthor | Madesh S"
+    },
+    {
+      "id": "timecard-user-manual-01",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Introduction",
+      "text": "[Timecard User Manual | Introduction]\nDO.070 Timecard -\nUser Manual"
+    },
+    {
+      "id": "timecard-user-manual-02",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Preface",
+      "text": "[Timecard User Manual | Preface]\nA timecard is the process of recording and tracking the number of hours an employee has contributed to a specific project or set of tasks."
+    },
+    {
+      "id": "timecard-user-manual-03",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Pre-requisites for initiating a Timecard Submission",
+      "text": "[Timecard User Manual | Pre-requisites for initiating a Timecard Submission]\nThe employee must have the timecard access on their menu to apply for the time sheet if the employee does not have the timecard, then they must reach out to the IA team to enable the flag for the timecard.\nEnsure there is Bio or regularization details are available prior to applying time entry. Bio entries are available when swiping in and out in a day and regularization are applied if worked remotely"
+    },
+    {
+      "id": "timecard-user-manual-04",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Navigation",
+      "text": "[Timecard User Manual | Navigation]\nUse your One-login and log on to Oracle EBS application.\nIn the Home Page, select Employee timecard entry and click on create timecard\nThis will redirect you to the user timecard entry page."
+    },
+    {
+      "id": "timecard-user-manual-05",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Navigation > Screenshots (OCR)",
+      "text": "[Timecard User Manual | Navigation > Screenshots (OCR)]\n[Screenshot] Search Frequents Company: BCT BCT BCT INTRANET il B BCT intranet BCT Knowledge Hub empuls R.EAP TMS 2.0 ORACLE ORACLE’ E-BUSINESS SUITE FUSION APPLICATIONS Oracle EBS Oracle Fusion HCM\n[Screenshot] E-Business Suite Logged InAs 1141443 Enterprise Search 9 Contract Docurnents Search Reeults Dieplay Preference Standard W Home Navigator Full List BCT Reimbursement Cisim Employee From Type Sent Due BCT Shift All There are no cations in this view tion Rules Redirect or sulo-respond to notifications Details Camp-Off Request Week-Off Entries Update Employre Information (c) 1998. 2020. Oracle and/or its affiliates. All rio"
+    },
+    {
+      "id": "timecard-user-manual-06",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Daily Timecard UI",
+      "text": "[Timecard User Manual | Daily Timecard UI]\nThe UI, will be displayed as above for a day/date\nWeekly Timecard UI\nThe UI will be displayed as above for a Week."
+    },
+    {
+      "id": "timecard-user-manual-07",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Daily Timecard UI > Screenshots (OCR)",
+      "text": "[Timecard User Manual | Daily Timecard UI > Screenshots (OCR)]\n[Screenshot] ORACLE Employee Timecard Entry, BCT India Logged InAs 1141443 Time Recent Timecards Timecerd Templates Time Entry: Bhushan Anil Dhengale, 114143 Cancel $ave Continue Personalize Container” Manager Name Period July 30, 2025 July 20, 2025~ v Comments Template newone v Overwrite Entry Apply Template Task Type Wed, Jul 30 Total Delete Template Name Save as a Template Add eee MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY SATURDAY SUNDAY Bio 9\n[Screenshot] Time Recent Timecards Create Timecard Templates Time Entry: Vishwanathan Srinivasan, 405023 Cancel Save Continue Personalize \"Timecard Container\" Manager Name Period July 14, 2025 July 20,2028 v Comments Template v Overwrite Entry Apply Template ZZ Additional Details Delete Project Add Another Row Recalculate Template Name Save as a Template"
+    },
+    {
+      "id": "timecard-user-manual-08",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Timecard Submission",
+      "text": "[Timecard User Manual | Timecard Submission]\nSelect the date for which the timecard is being applied.\nAfter selecting Time Sheet date, the number of hours will be displayed in the bottom of the screen where the attendance type will contain the detail such as bio-metric if any kind of regularization applied will be displayed for India Geo Associates. For others the biometric details will not be available.\nSelect the project against which you shall submit the timecard.\nThen mention/select the ‘Task’ from the List of Values as performed for the project, if the associate had worked on a holiday, then select either ‘holiday billable’ or ‘non-billable’.\nNote:\nIf the desired/applicable task is not available in the dropdown, please reach out to RMG team for inclusion.\nThen select type either ‘On-site’ or ‘offshore’ and there are two options will be available\nNormal Hours: if the associate selected normal hours onsite or offshore, the total hours clocked for all projects together should not exceed 9 hours for India Geo based Associates. For others the number of hours should not exceed 8 Hours."
+    },
+    {
+      "id": "timecard-user-manual-09",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Timecard Submission",
+      "text": "[Timecard User Manual | Timecard Submission]\nNormal Hours: if the associate selected normal hours onsite or offshore, the total hours clocked for all projects together should not exceed 9 hours for India Geo based Associates. For others the number of hours should not exceed 8 Hours.\nAdditional Hours: if the associate has worked extra hours in addition to the Normal hours mentioned above then the Associate will mention the same under ‘Additional Hours’.\nNote: To default the timecard details as entered earlier if any, Associate can select the ‘Last Timecard’ and click ‘Apply’ template the details of the previous timecard will be populated, Associate can modify as required.\nNote: Number of hours entered should sync with the biometric hours it should not be greater than the number of hours mentioned in the bottom of the UI.\nThen click on Save once the timecard has been saved click on continue.\nFor Non-India users the associate has to enter the maximum number of hours they can submit in the normal hours for a week and click on continue"
+    },
+    {
+      "id": "timecard-user-manual-10",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Timecard Submission > Screenshots (OCR)",
+      "text": "[Timecard User Manual | Timecard Submission > Screenshots (OCR)]\n[Screenshot] Time Recent Timecards Create Timecard Templates Time Entry: Mr. Karan Harishchandra Navale, 115426 Personalize \"Timecard Container\" Manager Name Period March 24, 2026 March 24, 2026 v a Comments Template v (D Overwrite Entry Apply Template Project Tue, Mar 24 Additional Details Tem Search and Select: Project Search To find your item, select a filter item in the pulldown list and enter a value in the text field, then select the \"Go\" button. Search By Project Details v Go Results Select Quick Select Project Details Start Date 29002-Biogen_CH_STARS KTLO TCOE 01-Oct-2024 29109-Biogn_CH_Vevavat_Enhmt Supt-TC 01-Jan-2026 29383-COPA_OSL OPS TIBCO SupportV1 01-Jan-2026 About this Page Completion Date 24-Mar-2026 28-Feb-2026 28-Feb-2026 Cancel Select"
+    },
+    {
+      "id": "timecard-user-manual-11",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Timecard Submission > Screenshots (OCR)",
+      "text": "[Timecard User Manual | Timecard Submission > Screenshots (OCR)]\n[Screenshot] Time Recent Timecards Create Timecard Templates Time Entry: Mr. Karan Harishchandra Navale, 115426 Personalize \"Timecard Container\" Manager Name Period March 24, 2026 March 24, 2026 v a Comments Template v (D Overwrite Entry Apply Template Project Tue, Mar 24 Additional Details Tem Search and Select: Project Search To find your item, select a filter item in the pulldown list and enter a value in the text field, then select the \"Go\" button. Search By Project Details v Go Results Select Quick Select Project Details Start Date 29002-Biogen_CH_STARS KTLO TCOE 01-Oct-2024 29109-Biogn_CH_Vevavat_Enhmt Supt-TC 01-Jan-2026 29383-COPA_OSL OPS TIBCO SupportV1 01-Jan-2026 About this Page Completion Date 24-Mar-2026 28-Feb-2026 28-Feb-2026 Cancel Select\n[Screenshot] Time Recent Timecards Create Timecard Templates Time Entry: Fahad Karim, 490083 Personalize \"Timecard Container\" Manager Name Period January 05, 2026 January 11, 2026 Comments Template v Overwrite Entry Apply Template 4 Cancel Save Continue Project Type Mon, Jan 05 Tue, Jan 06 Wed, Jan 07 Thu, Jan 08 Fri, Jan 09 Sat, Jan 10 Sun, Jan 11 Total Additional Details Delete Search and Select: Project x a Searen a To find your item, select a filter item in the pulldown list and enter a value in the text field, then select the \"Go\" button. fe) Search By Project Details v Go Ad Results 0 0 0 0 0 0 Tem Select Quick Select Details Start Date Completion Date 40487-Temenos_EWB Implementation_P1 01-Oct-2025 31-Oct-2026 About this Page Cancel Select Copyright (c) 1998, 20: Oracle and/or its affiliates. All rights reserved.| About this Page Privacy Statement"
+    },
+    {
+      "id": "timecard-user-manual-12",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Timecard Submission > Screenshots (OCR)",
+      "text": "[Timecard User Manual | Timecard Submission > Screenshots (OCR)]\n[Screenshot] Time Recent Timecards Create Timecard Templates Time Entry: Fahad Karim, 490083 Personalize \"Timecard Container\" Manager Name Period January 05, 2026 January 11, 2026 Comments Template v Overwrite Entry Apply Template 4 Cancel Save Continue Project Type Mon, Jan 05 Tue, Jan 06 Wed, Jan 07 Thu, Jan 08 Fri, Jan 09 Sat, Jan 10 Sun, Jan 11 Total Additional Details Delete Search and Select: Project x a Searen a To find your item, select a filter item in the pulldown list and enter a value in the text field, then select the \"Go\" button. fe) Search By Project Details v Go Ad Results 0 0 0 0 0 0 Tem Select Quick Select Details Start Date Completion Date 40487-Temenos_EWB Implementation_P1 01-Oct-2025 31-Oct-2026 About this Page Cancel Select Copyright (c) 1998, 20: Oracle and/or its affiliates. All rights reserved.| About this Page Privacy Statement\n[Screenshot] ORACLE Time Recent Timecards Create Timecard Templates Time Entry: Mr. Karan Harishchandra Navale, 115426 Personalize \"Timecard Container\" Manager Name Period March 24, 2026 March 24, 2026 v Template v Project Overwrite Entry Comments Apply Template Tue, Mar 24 Cancel Additional Details 29002-Biogen_CH Q 1 Search and Select: Task Search Search By Task Details v Add Another Row Recalculate Template Name Attendance Type MONDAY TUESDAY WEDNESDAY THURSDAY FRIDA Results Save as Select Quick Select About this Page Task Details 1-Professional Service 100-Holiday Non Billable 93-Out of Scope 94-Non Billable 95-Absent Non Billable 96-Leave Non Billable 97-Absent Billable 98-Leave Billable 99-Holiday —Billable Start Date 23-Sep-2024 23-Sep-2024 23-Sep-2024 23-Sep-2024 23-Sep-2024 23-Sep-2024 23-Sep-2024 23-Sep-2024 23-Sep-2024 To find your item, select a filter item in the pulldown list and enter a value in the text field, then select the \"Go\" button. Completion Date 31-Dec-2025 31-Dec-2025 31-Dec-2025 31-Dec-2025 31-Dec-2025 31-Dec-2025 31-Dec-2025 31-Dec-2025 31-Dec-2025"
+    },
+    {
+      "id": "timecard-user-manual-13",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Timecard Submission > Screenshots (OCR)",
+      "text": "[Timecard User Manual | Timecard Submission > Screenshots (OCR)]\n[Screenshot] ORACLE Time Recent Timecards Create Timecard Templates Time Entry: Mr. Karan Harishchandra Navale, 115426 Personalize \"Timecard Container\" Manager Name Period March 24, 2026 March 24, 2026 v Template v Project Overwrite Entry Comments Apply Template Tue, Mar 24 Cancel Additional Details 29002-Biogen_CH Q 1 Search and Select: Task Search Search By Task Details v Add Another Row Recalculate Template Name Attendance Type MONDAY TUESDAY WEDNESDAY THURSDAY FRIDA Results Save as Select Quick Select About this Page Task Details 1-Professional Service 100-Holiday Non Billable 93-Out of Scope 94-Non Billable 95-Absent Non Billable 96-Leave Non Billable 97-Absent Billable 98-Leave Billable 99-Holiday —Billable Start Date 23-Sep-2024 23-Sep-2024 23-Sep-2024 23-Sep-2024 23-Sep-2024 23-Sep-2024 23-Sep-2024 23-Sep-2024 23-Sep-2024 To find your item, select a filter item in the pulldown list and enter a value in the text field, then select the \"Go\" button. Completion Date 31-Dec-2025 31-Dec-2025 31-Dec-2025 31-Dec-2025 31-Dec-2025 31-Dec-2025 31-Dec-2025 31-Dec-2025 31-Dec-2025\n[Screenshot] Recent Timecards Create Timecard Templates Time Entry: Fahad Karim, 490083 fa Gad (Gens Search and Select: Task x Personalize \"Timecard Container\" Manager Name Search To find your item, select a filter item in the pulldown list and enter a value in the text field, then select the \"Go\" button. Period January 05, 2026 January 11, 2026 v| 2 Search By Task Details v Template v Overwrite Entry Apply Templa Results 1-Professional Service 01-Jun-2025 31-Oct-2026 a oO 100-Holiday Non Billable 01-Jun-2025 31-Oct-2026 ee ee O 12-Plan 01-Jun-2025 31-Oct-2026 ee ee O 4 13-Analyze 01-Jun-2025 31-Oct-2026 O 14-Design 01-Jun-2025 31-Oct-2026 eee ee) O 4 15-Build 01-Jun-2025 31-Oct-2026 Template Name Save as a Template O 4 16-test 01-Jun-2025 31-Oct-2026 O 17-Deploy 01-Jun-2025 31-Oct-2026 O 18-Post go live 01-Jun-2025 31-Oct-2026 ly O 2-Managed Services 01-Jun-2025 31-Oct-2026 About this Page Cancel Select"
+    },
+    {
+      "id": "timecard-user-manual-14",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Timecard Submission > Screenshots (OCR)",
+      "text": "[Timecard User Manual | Timecard Submission > Screenshots (OCR)]\n[Screenshot] Recent Timecards Create Timecard Templates Time Entry: Fahad Karim, 490083 fa Gad (Gens Search and Select: Task x Personalize \"Timecard Container\" Manager Name Search To find your item, select a filter item in the pulldown list and enter a value in the text field, then select the \"Go\" button. Period January 05, 2026 January 11, 2026 v| 2 Search By Task Details v Template v Overwrite Entry Apply Templa Results 1-Professional Service 01-Jun-2025 31-Oct-2026 a oO 100-Holiday Non Billable 01-Jun-2025 31-Oct-2026 ee ee O 12-Plan 01-Jun-2025 31-Oct-2026 ee ee O 4 13-Analyze 01-Jun-2025 31-Oct-2026 O 14-Design 01-Jun-2025 31-Oct-2026 eee ee) O 4 15-Build 01-Jun-2025 31-Oct-2026 Template Name Save as a Template O 4 16-test 01-Jun-2025 31-Oct-2026 O 17-Deploy 01-Jun-2025 31-Oct-2026 O 18-Post go live 01-Jun-2025 31-Oct-2026 ly O 2-Managed Services 01-Jun-2025 31-Oct-2026 About this Page Cancel Select\n[Screenshot] Time Recent Timecards Create Timecard Templates Time Entry: Mr. Karan Harishchandra Navale, 115426 Save Continue Personalize \"Timecard Container\" Manager Name Period March 24, 2026 March 24, 2026 v Comments Template v Entry Apply Template 4 Project Task Type Tue, Mar 24 Total Additional Details Delete 29002-Biogen_CH Q 100-Holiday Non— Q Q Search and Select: e x a a Typ Search To find your item, select a filter item in the pulldown list and enter a value in the text field, then select the \"Go\" button. Search By Display Column v i Go Add Another Row Recalculate Results Template Name Save as a Template Qui uick System Linkage Select Select Display Column Type Description Function CO 2 Additional Hours-Offshore Additional Hours- Additional Time Spent by the OT ad (Overtime) Offshore Employee at Offshore MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY SATURDAY SUNDAY Additional Hours-Onsite- Additional Hours- Additional Time Spent by the ype (Overtime) Onsite Employee at Ofnsite CO 2 Normal Hours-OffShore Normal Hours- Normal Time Spent by the Employee ST ad (Straight Time) OffShore at Offshore CO 2 Normal Hours-Onsite Normal Hours- Normal Time Spent by the Employee ST ad (Straight Time) Onsite at Onsite About this Page Cancel Select"
+    },
+    {
+      "id": "timecard-user-manual-15",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Timecard Submission > Screenshots (OCR)",
+      "text": "[Timecard User Manual | Timecard Submission > Screenshots (OCR)]\n[Screenshot] Time Recent Timecards Create Timecard Templates Time Entry: Mr. Karan Harishchandra Navale, 115426 Save Continue Personalize \"Timecard Container\" Manager Name Period March 24, 2026 March 24, 2026 v Comments Template v Entry Apply Template 4 Project Task Type Tue, Mar 24 Total Additional Details Delete 29002-Biogen_CH Q 100-Holiday Non— Q Q Search and Select: e x a a Typ Search To find your item, select a filter item in the pulldown list and enter a value in the text field, then select the \"Go\" button. Search By Display Column v i Go Add Another Row Recalculate Results Template Name Save as a Template Qui uick System Linkage Select Select Display Column Type Description Function CO 2 Additional Hours-Offshore Additional Hours- Additional Time Spent by the OT ad (Overtime) Offshore Employee at Offshore MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY SATURDAY SUNDAY Additional Hours-Onsite- Additional Hours- Additional Time Spent by the ype (Overtime) Onsite Employee at Ofnsite CO 2 Normal Hours-OffShore Normal Hours- Normal Time Spent by the Employee ST ad (Straight Time) OffShore at Offshore CO 2 Normal Hours-Onsite Normal Hours- Normal Time Spent by the Employee ST ad (Straight Time) Onsite at Onsite About this Page Cancel Select\n[Screenshot] Recent Timecards Create Timecard Templates Time Entry: Fahad Karim, 490083 Personalize \"Timecard Container\" Manager Name Period January 05, 2026 January 11, 2026 v Template v Overwrite Entry Project Task Apply Template Type Comments Mon, Jan 05 Tue, Jan 06 Wed, Jan 07 Thu, Jan 08 Fri, Jan 09 Sat, Jan 10 Sun, Jan 11 Total Cancel Additional Details Save Continue Delete 40487-Temenos_E Q 1-Professional Ser Q Add Another Row Recalculate Template Name Save as a Template Search and Select: Type Search To find your item, select a filter item in the pulldown list and enter a value in the text field, then select the \"Go\" button. Search By Display Column v Results Quick Select Select About this Page Display Column Additional Hours-Offshore (Overtime) Additional Hours-Onsite (Overtime) Normal Hours-OffShore (Straight Time) Normal Hours-Onsite (Straight Time) Type Additional Hours- Offshore Additional Hours- Onsite Normal Hours- OffShore Normal Hours- Onsite Description Additional Time Spent by the Employee at Offshore Additional Time Spent by the Employee at Ofnsite Normal Time Spent by the Employee at Offshore Normal Time Spent by the Employee at Onsite System Linkage Function Cancel Select fea fea fea"
+    },
+    {
+      "id": "timecard-user-manual-16",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Timecard Submission > Screenshots (OCR)",
+      "text": "[Timecard User Manual | Timecard Submission > Screenshots (OCR)]\n[Screenshot] Recent Timecards Create Timecard Templates Time Entry: Fahad Karim, 490083 Personalize \"Timecard Container\" Manager Name Period January 05, 2026 January 11, 2026 v Template v Overwrite Entry Project Task Apply Template Type Comments Mon, Jan 05 Tue, Jan 06 Wed, Jan 07 Thu, Jan 08 Fri, Jan 09 Sat, Jan 10 Sun, Jan 11 Total Cancel Additional Details Save Continue Delete 40487-Temenos_E Q 1-Professional Ser Q Add Another Row Recalculate Template Name Save as a Template Search and Select: Type Search To find your item, select a filter item in the pulldown list and enter a value in the text field, then select the \"Go\" button. Search By Display Column v Results Quick Select Select About this Page Display Column Additional Hours-Offshore (Overtime) Additional Hours-Onsite (Overtime) Normal Hours-OffShore (Straight Time) Normal Hours-Onsite (Straight Time) Type Additional Hours- Offshore Additional Hours- Onsite Normal Hours- OffShore Normal Hours- Onsite Description Additional Time Spent by the Employee at Offshore Additional Time Spent by the Employee at Ofnsite Normal Time Spent by the Employee at Offshore Normal Time Spent by the Employee at Onsite System Linkage Function Cancel Select fea fea fea\n[Screenshot] Recent Timecards Create Timecard Templates Time Entry: Fahad Karim, 490083 ersonalize \"Timecard Container\" Manager Name Period January 05, 2026 January 11, 2026 v Template v Overwrite Entry Project Task Apply Template Type Comments Mon, Jan 05 Tue, Jan 06 Wed, Jan 07 Thu, Jan 08 Fri, Jan 09 Sat, Jan 10 Sun, Jan 11 Cancel Additional Details Save Continue 40487-Temenos_E 1-Professional Ser Q Normal Hours-Offg Q Add Another Row Template Name Recalculate Save as a Template"
+    },
+    {
+      "id": "timecard-user-manual-17",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Timecard Submission page",
+      "text": "[Timecard User Manual | Timecard Submission page]\nThis page contains the details of timecard saved, pending submission.\nTo ‘Submit’ click ‘Submit’ button for initiating the Approval process."
+    },
+    {
+      "id": "timecard-user-manual-18",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Timecard Submission page > Screenshots (OCR)",
+      "text": "[Timecard User Manual | Timecard Submission page > Screenshots (OCR)]\n[Screenshot] Time Recent Timecards Create Timecerd Templates Confirmation Time entries for the given timecerd period have been submitted successfully. Confirmation: Bhushan Anil Dhengale, 114143 Personalize Container” Manager Name Week Starting Wednesday, July 30 2025 Timecard Period (days) 1 Commente Project Task 20464-CH_AEO Mgd Services 2-Non billzbke- KT Type Normal Hours-OffShore (Straight Time) Wed, Jul 30 MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY SATURDAY SUNDAY Bio Metic 9 Return to Recent Timecards"
+    },
+    {
+      "id": "timecard-user-manual-19",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Timecard Approvals",
+      "text": "[Timecard User Manual | Timecard Approvals]\nTimecard approval from the Worklist\nGo to Oracle EBS page on the worklist you will find the list associates whose timecard approvals are required\nClick on OTL workflows for employees\nClick on the above buttons on the page to perform the actions"
+    },
+    {
+      "id": "timecard-user-manual-20",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Timecard Approvals > Screenshots (OCR)",
+      "text": "[Timecard User Manual | Timecard Approvals > Screenshots (OCR)]\n[Screenshot] Worklist Full List (39) Ey ov Rows 1 to 39 Type Subject 4 CII @BCT Shift Allowance 4115419 a @BCT Shift Allowance 50423 Shift Allowance Claim Approval Request for 01-Nov-2025 30-Nov-2025 @EBCT Shift Allowance Shift Allowance Deviation Approval request 115135 @EBCT Shift Allowance Shift Allowance Deviation Approval request 115135 @EBCT Shift Allowance Shift Allowance Deviation Approval request 114544 @EBCT Shift Allowance Shift Allowance Deviation Approval request 111282 @EBCT Shift Allowance Shift Allowance Deviation Approval request 111282 @BCT Shift Allowance 50436 Shift Allowance Claim Approval Request for 01-Nov-2025 30-Nov-2025 HR Regularization OTL Approval for Work from Home Request No WFH1140601764230559505 HR Regularization OTL Approval for Work from Home Request No WFH1144761764235239354 HR Regularization OTL Approval for Work from Home Request No WFH1144761764235208980 HR Regularization OTL Approval for Work from Home Request No WFH1144761764235186054 HR Regularization OTL Approval for Work from Home Request No WFH1144761764235151788 HR Regularization OTL Approval for Work from Home Request No WFH1149261764250674795 HR Regularization OTL Approval for Comp-Off Request No COM1163781767982705847 OTL Workflows for Employees Timecard (25-NOV-2025 to 25-NOV-2025) for Rana, Deepak (9 hours) requires approval Timecard (26-NOV-2025 to 26-NOV-2025) for Sukhavasi, Vamsi Krishna (9 hours) requires approval Timecard (27-NOV-2025 to 27-NOV-2025) for Sukhavasi, Vamsi Krishna (9 hours) requires approval Timecard (27-NOV-2025 to 27-NOV-2025) for Soni, Akshay Ramavtar (9 hours) requires approval OTL Workflows for Employees Timecard (24-NOV-2025 to 24-NOV-2025) for Nishikar, Nishant (9 hours) requires approval OTL Workflows for Employees Timecard (25-NOV-2025 to 25-NOV-2025) for Nishikar, Nishant (9 hours) requires approval OTL Workflows for Employees OTL Workflows"
+    },
+    {
+      "id": "timecard-user-manual-21",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Timecard Approvals > Screenshots (OCR)",
+      "text": "[Timecard User Manual | Timecard Approvals > Screenshots (OCR)]\n[Screenshot] Worklist Full List (39) Ey ov Rows 1 to 39 Type Subject 4 CII @BCT Shift Allowance 4115419 a @BCT Shift Allowance 50423 Shift Allowance Claim Approval Request for 01-Nov-2025 30-Nov-2025 @EBCT Shift Allowance Shift Allowance Deviation Approval request 115135 @EBCT Shift Allowance Shift Allowance Deviation Approval request 115135 @EBCT Shift Allowance Shift Allowance Deviation Approval request 114544 @EBCT Shift Allowance Shift Allowance Deviation Approval request 111282 @EBCT Shift Allowance Shift Allowance Deviation Approval request 111282 @BCT Shift Allowance 50436 Shift Allowance Claim Approval Request for 01-Nov-2025 30-Nov-2025 HR Regularization OTL Approval for Work from Home Request No WFH1140601764230559505 HR Regularization OTL Approval for Work from Home Request No WFH1144761764235239354 HR Regularization OTL Approval for Work from Home Request No WFH1144761764235208980 HR Regularization OTL Approval for Work from Home Request No WFH1144761764235186054 HR Regularization OTL Approval for Work from Home Request No WFH1144761764235151788 HR Regularization OTL Approval for Work from Home Request No WFH1149261764250674795 HR Regularization OTL Approval for Comp-Off Request No COM1163781767982705847 OTL Workflows for Employees Timecard (25-NOV-2025 to 25-NOV-2025) for Rana, Deepak (9 hours) requires approval Timecard (26-NOV-2025 to 26-NOV-2025) for Sukhavasi, Vamsi Krishna (9 hours) requires approval Timecard (27-NOV-2025 to 27-NOV-2025) for Sukhavasi, Vamsi Krishna (9 hours) requires approval Timecard (27-NOV-2025 to 27-NOV-2025) for Soni, Akshay Ramavtar (9 hours) requires approval OTL Workflows for Employees Timecard (24-NOV-2025 to 24-NOV-2025) for Nishikar, Nishant (9 hours) requires approval OTL Workflows for Employees Timecard (25-NOV-2025 to 25-NOV-2025) for Nishikar, Nishant (9 hours) requires approval OTL Workflows for Employees OTL Workflows\n[Screenshot] Home Timecard (27-NOV-2025 to 27-NOV-2025) for Sukhavasi, Vamsi Krishna (9 hours) requires approval Sukhavasi, Vamsi Krishna To PK, Palanivel Sent 27-Nov-2025 12:39:08 ID 30073257 Personalize \"Timecard Container\" Manager Name Timecard Entries Comments Project Timecard Dates 27-NOV-2025 to 27-NOV-2025 Description 9 total hours 0 premium hours, 0 non worked hours) 38440380#3141521 Task Type Approve Thu, Nov 27 Reject Reassign Request Information 29005 Copa_CH_Weight Balance 1-Professinal Service Normal Hours-OffShore (Straight Time) Thursday, November 27, 2025 Previous Submitted Entry Number of Hours Project Task Type Comments Action History Num Action Date Current Submitted Entry 29005 Copa_CH_Weight Balance 1-Professinal Service Normal Hours-OffShore (Straight Time) 1 27-Nov-2025 12:39:08 Action From Submit Sukhavasi, Vamsi Krishna PK, Palanivel Details"
+    },
+    {
+      "id": "timecard-user-manual-22",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Mass Timecard Approval",
+      "text": "[Timecard User Manual | Mass Timecard Approval]\nGo to Mass Timecard approval Responsibility on the oracle EBS page\nClick on Mass approval –Timecard to view and approve the timecards\nThe Timecards approval Requests can be filtered using the Parameters; From Date, To date and person-wise(Associate) also so that specific request(s) can be approved.\nThere are two modes one is ‘history’ and ‘Pending for Approval’\nThe history mode lists the timecards requests which were ‘Approved’ or ‘Rejected’ by the OTL approver already.\nThe ‘Pending for Approval’ lists the request which are yet to be approved.\nThe action section lists the Approval status to be performed viz. ‘Approved’ ,’Rejected’ or ‘Skipped’.\nThe details section on the page will provide the summary of the timecard which is being submitted by the user\nAfter selecting the Action viz. Approve, Reject, or Skip—click Continue to proceed with mass approval or rejection based on the selected action.\nThis page displays the details of timecards reject, approved and skipped.\nAfter reviewing click on ‘submit’ to mass approve the timecards."
+    },
+    {
+      "id": "timecard-user-manual-23",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Mass Timecard Approval > Screenshots (OCR)",
+      "text": "[Timecard User Manual | Mass Timecard Approval > Screenshots (OCR)]\n[Screenshot] Home @TIP You have 83 open notifications in your Worklist. Please Navigator Personalize i BCT Mass Approval BCT Reimbursement Claim Employee BCT Shift Allowance Access Employee BCT Shift Allowance Access Manager [3 Employee Timecard Entry, BCT India 4 Mass Timecard Approval, BCT CoE Mass Approval Time Card Timecard Status Dashboard Regularization Update Employee Information"
+    },
+    {
+      "id": "timecard-user-manual-24",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Mass Timecard Approval > Screenshots (OCR)",
+      "text": "[Timecard User Manual | Mass Timecard Approval > Screenshots (OCR)]\n[Screenshot] Home @TIP You have 83 open notifications in your Worklist. Please Navigator Personalize i BCT Mass Approval BCT Reimbursement Claim Employee BCT Shift Allowance Access Employee BCT Shift Allowance Access Manager [3 Employee Timecard Entry, BCT India 4 Mass Timecard Approval, BCT CoE Mass Approval Time Card Timecard Status Dashboard Regularization Update Employee Information\n[Screenshot] Timecard Approvals Continue You can use the ‘Skip’ action if you do not want to Approve or Reject a timecard. Search From Date (24-Mar-2026) fe To Date Person Q Mode Pending Approval v Show Advanced Search Criteria Go Clear Personalize “Approval Hidden Region\" coo Rows 1 to 45 PersonNumber Person Name Application Name Period Starting Period Ending _Timecard Status Transferred To Total Hours Premium Hours Non Worked Hours Comment Details Action 114544 Projects 26-Nov-2025 26-Nov-2025 Pending Approval None 9 0 0 Approve v a 115924 Projects 27-Nov-2025 27-Nov-2025 Pending Approval None 9 0 0 Approve v 115924 Projects 24-Nov-2025 24-Nov-2025 Pending Approval None 9 0 0 Approve v 115924 Projects 26-Nov-2025 26-Nov-2025 Pending Approval None 9 0 0 Approve v 115924 Projects 25-Nov-2025 25-Nov-2025 Pending Approval None 9 0 0 Approve v 113036 Projects 27-Nov-2025 27-Nov-2025 Pending Approval None 9 0 0 Approve v 114161 Projects 26-Nov-2025 26-Nov-2025 Pending Approval None 9 0 0 Approve v 114161 Projects 27-Nov-2025 27-Nov-2025 Pending Approval None 9 0 0 Approve v 115989 Projects 24-Nov-2025 24-Nov-2025 Pending Approval None 9 0 0 Approve v 115989 Projects 26-Nov-2025 26-Nov-2025 Pending Approval None 9 0 0 Approve v 115989 Projects 27-Nov-2025 27-Nov-2025 Pending Approval None 9 0 0 Approve v 115989 Projects 25-Nov-2025 25-Nov-2025 Pending Approval None 9 0 0 Approve v 116258 Projects 11-Nov-2025 11-Nov-2025 Pending Approval None 9 0 0 Approve v 116258 Projects 12-Nov-2025 12-Nov-2025 Pending Approval None 9 0 0 Approve v 116258 Projects 27-Nov-2025 27-Nov-2025 Pending Approval None 9 0 0"
+    },
+    {
+      "id": "timecard-user-manual-25",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Mass Timecard Approval > Screenshots (OCR)",
+      "text": "[Timecard User Manual | Mass Timecard Approval > Screenshots (OCR)]\n[Screenshot] Timecard Approvals Continue You can use the ‘Skip’ action if you do not want to Approve or Reject a timecard. Search From Date (24-Mar-2026) fe To Date Person Q Mode Pending Approval v Show Advanced Search Criteria Go Clear Personalize “Approval Hidden Region\" coo Rows 1 to 45 PersonNumber Person Name Application Name Period Starting Period Ending _Timecard Status Transferred To Total Hours Premium Hours Non Worked Hours Comment Details Action 114544 Projects 26-Nov-2025 26-Nov-2025 Pending Approval None 9 0 0 Approve v a 115924 Projects 27-Nov-2025 27-Nov-2025 Pending Approval None 9 0 0 Approve v 115924 Projects 24-Nov-2025 24-Nov-2025 Pending Approval None 9 0 0 Approve v 115924 Projects 26-Nov-2025 26-Nov-2025 Pending Approval None 9 0 0 Approve v 115924 Projects 25-Nov-2025 25-Nov-2025 Pending Approval None 9 0 0 Approve v 113036 Projects 27-Nov-2025 27-Nov-2025 Pending Approval None 9 0 0 Approve v 114161 Projects 26-Nov-2025 26-Nov-2025 Pending Approval None 9 0 0 Approve v 114161 Projects 27-Nov-2025 27-Nov-2025 Pending Approval None 9 0 0 Approve v 115989 Projects 24-Nov-2025 24-Nov-2025 Pending Approval None 9 0 0 Approve v 115989 Projects 26-Nov-2025 26-Nov-2025 Pending Approval None 9 0 0 Approve v 115989 Projects 27-Nov-2025 27-Nov-2025 Pending Approval None 9 0 0 Approve v 115989 Projects 25-Nov-2025 25-Nov-2025 Pending Approval None 9 0 0 Approve v 116258 Projects 11-Nov-2025 11-Nov-2025 Pending Approval None 9 0 0 Approve v 116258 Projects 12-Nov-2025 12-Nov-2025 Pending Approval None 9 0 0 Approve v 116258 Projects 27-Nov-2025 27-Nov-2025 Pending Approval None 9 0 0\n[Screenshot] Timecard Approvals You can use the ‘Skip’ action if you do not want to Approve or Reject a timecard. Search From Date (24-Mar-2026) fe Person Mode v History Show ria Pending Approval Personalize “Approval Hidden Region\" To Date Continue"
+    },
+    {
+      "id": "timecard-user-manual-26",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Mass Timecard Approval > Screenshots (OCR)",
+      "text": "[Timecard User Manual | Mass Timecard Approval > Screenshots (OCR)]\n[Screenshot] Timecard Approvals You can use the ‘Skip’ action if you do not want to Approve or Reject a timecard. Search From Date (24-Mar-2026) fe Person Mode v History Show ria Pending Approval Personalize “Approval Hidden Region\" To Date Continue\n[Screenshot] Person Number 114544 115924 115924 115924 115924 Person Name Mr. Vishwa B N114544 Application Name Projects Projects Projects Projects Projects Period Starting 26-Nov-2025 27-Nov-2025 24-Nov-2025 26-Nov-2025 25-Nov-2025 Az Alem. Period Ending 26-Nov-2025 27-Nov-2025 24-Nov-2025 26-Nov-2025 25-Nov-2025 Az Alem. Timecard Status Pending Approval Pending Approval Pending Approval Pending Approval Pending Approval Transferred To None None None None None Total Hours Premium Hours Non Worked Hours Comment Rows 1 to 45 Details Action Approve v Approve Reject fe) Skip\n[Screenshot] Review: Mr. Vishwa B N, 114544 Personalize \"Timecard Container\" Manager Name Week Starting Wednesday, November 26 2025 Timecard Period (days) 1 Comments Project Task Type Wed, Nov 26 Additional Details 29005 Copa_CH_Weight Balance 1-Professinal Service Normal Hours-OffShore (Straight Time)"
+    },
+    {
+      "id": "timecard-user-manual-27",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Mass Timecard Approval > Screenshots (OCR)",
+      "text": "[Timecard User Manual | Mass Timecard Approval > Screenshots (OCR)]\n[Screenshot] Review: Mr. Vishwa B N, 114544 Personalize \"Timecard Container\" Manager Name Week Starting Wednesday, November 26 2025 Timecard Period (days) 1 Comments Project Task Type Wed, Nov 26 Additional Details 29005 Copa_CH_Weight Balance 1-Professinal Service Normal Hours-OffShore (Straight Time)\n[Screenshot] Approval Review Back submit The Approved, Rejected, and Skipped timecards display the status you selected. You may have marked the Skipped timecards, or not viewed them on other pages. Skipped timecards require an action to complete the Approval process. Personalize “Approval Hidden Region\" Time Entries Rejected Person Number Person Name Application Name Period Starting Period Ending Total Hours Premium Hours Non Worked Hours Timecard Status Transferred To Comment Details 114544 Mr. Vishwa B N Projects 26-Nov-2025 26-Nov-2025 9 0 0 Pending Approval None Table Diagnostics Time Entries Approved coo Rows 1 to 30 Person Number Person Name Application Name Period Starting Period Ending Total Hours Premium Hours Non Worked Hours Timecard Status Transferred To Comment Details 115135 Mr. Sanjay Kumar PM Projects 27-Nov-2025 27-Nov-2025 9 0 0 Pending Approval None 115135 Mr. Sanjay Kumar PM Projects 26-Nov-2025 26-Nov-2025 9 0 0 Pending Approval None 114625 Mr. Ajinkya Prashant Kothmire Projects 27-Nov-2025 27-Nov-2025 9 0 0 Pending Approval None 114625 Mr. Ajinkya Prashant Kothmire Projects 26-Nov-2025 26-Nov-2025 9 0 0 Pending Approval None 114476 Ms. Sneha Pradiprav Kotawar Projects 21-Nov-2025 21-Nov-2025 9 0 0 Pending Approval None 114476 Ms. Sneha Pradiprav Kotawar Projects 24-Nov-2025 24-Nov-2025 9 0 0 Pending Approval None 114476 Ms. Sneha Pradiprav Kotawar Projects 25-Nov-2025 25-Nov-2025 9 0 0 Pending Approval None 114476 Ms. Sneha Pradiprav Kotawar Projects 26-Nov-2025 26-Nov-2025 9 0 0 Pending Approval None 114476 Ms. Sneha Pradiprav Kotawar Projects 27-Nov-2025 27-Nov-2025 9 0 0 Pending Approval None 111282 Mr. Rajesh Kannan Projects 26-Nov-2025 26-Nov-2025 9"
+    },
+    {
+      "id": "timecard-user-manual-28",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Mass Timecard Approval > Screenshots (OCR)",
+      "text": "[Timecard User Manual | Mass Timecard Approval > Screenshots (OCR)]\n[Screenshot] Approval Review Back submit The Approved, Rejected, and Skipped timecards display the status you selected. You may have marked the Skipped timecards, or not viewed them on other pages. Skipped timecards require an action to complete the Approval process. Personalize “Approval Hidden Region\" Time Entries Rejected Person Number Person Name Application Name Period Starting Period Ending Total Hours Premium Hours Non Worked Hours Timecard Status Transferred To Comment Details 114544 Mr. Vishwa B N Projects 26-Nov-2025 26-Nov-2025 9 0 0 Pending Approval None Table Diagnostics Time Entries Approved coo Rows 1 to 30 Person Number Person Name Application Name Period Starting Period Ending Total Hours Premium Hours Non Worked Hours Timecard Status Transferred To Comment Details 115135 Mr. Sanjay Kumar PM Projects 27-Nov-2025 27-Nov-2025 9 0 0 Pending Approval None 115135 Mr. Sanjay Kumar PM Projects 26-Nov-2025 26-Nov-2025 9 0 0 Pending Approval None 114625 Mr. Ajinkya Prashant Kothmire Projects 27-Nov-2025 27-Nov-2025 9 0 0 Pending Approval None 114625 Mr. Ajinkya Prashant Kothmire Projects 26-Nov-2025 26-Nov-2025 9 0 0 Pending Approval None 114476 Ms. Sneha Pradiprav Kotawar Projects 21-Nov-2025 21-Nov-2025 9 0 0 Pending Approval None 114476 Ms. Sneha Pradiprav Kotawar Projects 24-Nov-2025 24-Nov-2025 9 0 0 Pending Approval None 114476 Ms. Sneha Pradiprav Kotawar Projects 25-Nov-2025 25-Nov-2025 9 0 0 Pending Approval None 114476 Ms. Sneha Pradiprav Kotawar Projects 26-Nov-2025 26-Nov-2025 9 0 0 Pending Approval None 114476 Ms. Sneha Pradiprav Kotawar Projects 27-Nov-2025 27-Nov-2025 9 0 0 Pending Approval None 111282 Mr. Rajesh Kannan Projects 26-Nov-2025 26-Nov-2025 9\n[Screenshot] Mass Time Card Timecard Status Dashboard Confirmation The timecards shown below have been Approved, Rejected, or Skipped. Approvals Completed Personalize Flow Layout: (Hxcaprvconfirm) Time Entries Rejected Person Name Mr. Vishwa BN Person Number 114544 Table Diagnostics Time Entries Approved Person Number Person Name Application Name Projects 114476 Ms. Sneha Pradiprav Kotawar 114476 Ms. Sneha Pradiprav Kotawar 111282 Mr. Rajesh Kannan 116258 Lakshmi Johnsor 116258 Lakshmi Johnsor 116258 Lakshmi Johnsor 116258 Lakshmi Johnsor 116258 Lakshmi Johnsor 116258 Lakshmi Johnsor 116258 Lakshmi Johnsor Table Diagnostics Time Entries Skipped 26-Nov-2025 Application Name Projects Projects Projects Projects Projects Projects Projects Projects Projects Projects Period Starting Period Ending 26-Nov-2025 Period Starting 26-Nov-2025 27-Nov-2025 26-Nov-2025 06-Nov-2025 07-Nov-2025 10-Nov-2025 11-Nov-2025 12-Nov-2025 13-Nov-2025 14-Nov-2025 Period Ending 26-Nov-2025 27-Nov-2025 26-Nov-2025 06-Nov-2025 07-Nov-2025 10-Nov-2025 11-Nov-2025 12-Nov-2025 13-Nov-2025 14-Nov-2025 Timecard Status Pending Approval Timecard Status Pending Approval Pending Approval Pending Approval Pending Approval Pending Approval Pending Approval Pending Approval Pending Approval Pending Approval Pending Approval Transferred To None Transferred To None None None None None None None None None None Total Hours Total Hours OOO Premium Hours Premium Hours ooooooo coco Non Worked Hours Timecard ID 0 38440624 1 Non Worked Hours Timecard ID 0 38441292 -1 0 38441307 -1 0 38442608 1 0 38442227 -1 0 38442244 -1 0 38442329 -1 0 38442338 1 0 38442342 -1 0 38442346 -1 0 38442350 1 Comment Rows 14 to 43 Comment"
+    },
+    {
+      "id": "timecard-user-manual-29",
+      "source": "Timecard_User_Manual",
+      "doc_title": "Timecard User Manual",
+      "section": "Document information",
+      "text": "[Timecard User Manual | Document information]\nDocument Name | Timecard –User Manual\nVersion Number | V1.0\nRelease Date\nAuthor | Bhargav Shankar"
+    }
+  ]
+}

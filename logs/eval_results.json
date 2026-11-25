@@ -1,0 +1,275 @@
+[
+  {
+    "question": "How many hours of office clock-in must an associate complete each day?",
+    "expected": [
+      [
+        "9 hours"
+      ]
+    ],
+    "retrieval_hit": true,
+    "answer_correct": true,
+    "answer": "Associates are required to complete **9 hours of office clock‑in each day** (shortages of less than 2 hours can be regular",
+    "retrieved_ids": [
+      "email-5-day-work-week-effectiv-04",
+      "email-5-day-work-week-effectiv-05",
+      "timecard-user-manual-09",
+      "timecard-user-manual-03"
+    ],
+    "seconds": 8.19,
+    "error": null
+  },
+  {
+    "question": "What is the payroll cut-off date every month?",
+    "expected": [
+      [
+        "21st"
+      ]
+    ],
+    "retrieval_hit": true,
+    "answer_correct": true,
+    "answer": "The payroll cut‑off date is the 21st of every month. [Source: Email 5 Day Work Week Effective 15 July 2026]",
+    "retrieved_ids": [
+      "email-5-day-work-week-effectiv-07",
+      "regularization-user-manual-17",
+      "regularization-user-manual-13",
+      "regularization-user-manual-19"
+    ],
+    "seconds": 7.97,
+    "error": null
+  },
+  {
+    "question": "Who is eligible for the five-day work week?",
+    "expected": [
+      [
+        "G5"
+      ]
+    ],
+    "retrieval_hit": true,
+    "answer_correct": true,
+    "answer": "Eligible employees are:\n\n- All staff at grade G5 and above across every function  \n- All enabler/support‑function associates at any grade, including contractors  \n\n[Source: Email 5 Day Work Week Effective 15 July 2026 | 1. Eligibility]",
+    "retrieved_ids": [
+      "email-5-day-work-week-effectiv-02",
+      "email-5-day-work-week-effectiv-01",
+      "email-5-day-work-week-effectiv-06",
+      "email-5-day-work-week-effectiv-03"
+    ],
+    "seconds": 8.35,
+    "error": null
+  },
+  {
+    "question": "What happens to days that are not regularized and have no leave applied?",
+    "expected": [
+      [
+        "LOP",
+        "loss of pay"
+      ]
+    ],
+    "retrieval_hit": true,
+    "answer_correct": true,
+    "answer": "Days that are not regularized and have no leave applied are treated as Loss of Pay (LOP), and salary deductions will be made accordingly. [Source: Email 5 Day Work Week Effective 15 July 2026]",
+    "retrieved_ids": [
+      "email-5-day-work-week-effectiv-06",
+      "email-5-day-work-week-effectiv-03",
+      "regularization-user-manual-23",
+      "regularization-user-manual-17"
+    ],
+    "seconds": 7.3,
+    "error": null
+  },
+  {
+    "question": "Who must approve exceptions to the five-day work week?",
+    "expected": [
+      [
+        "Reporting Manager"
+      ],
+      [
+        "Business Head"
+      ],
+      [
+        "HRBP"
+      ]
+    ],
+    "retrieval_hit": true,
+    "answer_correct": true,
+    "answer": "Exceptions must be approved by the Reporting Manager, the Business Head, and the HRBP.  \n[Source: Email 5 Day Work Week Effective 15 July 2026 | 6. Exceptions]",
+    "retrieved_ids": [
+      "email-5-day-work-week-effectiv-07",
+      "email-5-day-work-week-effectiv-02",
+      "email-5-day-work-week-effectiv-04",
+      "email-5-day-work-week-effectiv-05"
+    ],
+    "seconds": 7.5,
+    "error": null
+  },
+  {
+    "question": "How should I mark attendance when I am working from a client site?",
+    "expected": [
+      [
+        "on-site",
+        "onsite",
+        "on site"
+      ]
+    ],
+    "retrieval_hit": true,
+    "answer_correct": true,
+    "answer": "When you work from a client site, record your attendance as **ON‑SITE** in EBS (biometric attendance is not used). In the regularization tool select the “On‑site” transaction, choose the start and end dates, enter the reason, pick the applicable shift (mandatory) and submit",
+    "retrieved_ids": [
+      "email-5-day-work-week-effectiv-05",
+      "regularization-user-manual-06",
+      "regularization-user-manual-18",
+      "email-5-day-work-week-effectiv-03"
+    ],
+    "seconds": 8.72,
+    "error": null
+  },
+  {
+    "question": "Within how many days should a regularization request be performed?",
+    "expected": [
+      [
+        "15 days"
+      ]
+    ],
+    "retrieval_hit": true,
+    "answer_correct": true,
+    "answer": "Regularization requests must be performed within 15 days. [Source: Regularization User Manual | B. Pre‑requisites > Regularization]",
+    "retrieved_ids": [
+      "regularization-user-manual-04",
+      "regularization-user-manual-09",
+      "regularization-user-manual-19",
+      "regularization-user-manual-17"
+    ],
+    "seconds": 8.89,
+    "error": null
+  },
+  {
+    "question": "What is the minimum biometric attendance needed to apply for regularization?",
+    "expected": [
+      [
+        "7 hours"
+      ]
+    ],
+    "retrieval_hit": true,
+    "answer_correct": true,
+    "answer": "The minimum biometric attendance required to apply for regularization is **greater than 7 hours**.  \n[Source: Regularization User Manual]",
+    "retrieved_ids": [
+      "regularization-user-manual-09",
+      "regularization-user-manual-12",
+      "regularization-user-manual-04",
+      "regularization-user-manual-03"
+    ],
+    "seconds": 8.51,
+    "error": null
+  },
+  {
+    "question": "When should I use the Missed to Swipe option?",
+    "expected": [
+      [
+        "either"
+      ],
+      [
+        "in-time",
+        "out-time",
+        "swipe"
+      ]
+    ],
+    "retrieval_hit": true,
+    "answer_correct": true,
+    "answer": "Use the Missed to Swipe option when you missed either your ‘In‑time’ or ‘Out‑time’ swipe (but not both) and you have at least one biometric in‑ or out‑time recorded.  \n[Source: Regularization User Manual]",
+    "retrieved_ids": [
+      "regularization-user-manual-08",
+      "regularization-user-manual-03",
+      "regularization-user-manual-22",
+      "regularization-user-manual-11"
+    ],
+    "seconds": 8.7,
+    "error": null
+  },
+  {
+    "question": "For India associates, what is the maximum number of normal hours in a timecard per day?",
+    "expected": [
+      [
+        "9 hours",
+        "9 normal hours"
+      ]
+    ],
+    "retrieval_hit": true,
+    "answer_correct": true,
+    "answer": "India Geo‑based associates may submit up to **9 normal hours per day** (total across all projects).  \n[Source: Timecard User Manual | Timecard Submission – Excerpt 1 & Excerpt 2]",
+    "retrieved_ids": [
+      "timecard-user-manual-09",
+      "timecard-user-manual-08",
+      "timecard-user-manual-15",
+      "timecard-user-manual-27"
+    ],
+    "seconds": 7.5,
+    "error": null
+  },
+  {
+    "question": "Who do I contact if the task I need is not in the timecard dropdown?",
+    "expected": [
+      [
+        "RMG"
+      ]
+    ],
+    "retrieval_hit": true,
+    "answer_correct": true,
+    "answer": "If the required task isn’t listed in the dropdown, you should contact the **RMG team** for inclusion. [Source: Timecard User Manual | Timecard Submission]",
+    "retrieved_ids": [
+      "timecard-user-manual-03",
+      "timecard-user-manual-08",
+      "timecard-user-manual-12",
+      "timecard-user-manual-26"
+    ],
+    "seconds": 8.17,
+    "error": null
+  },
+  {
+    "question": "What happens to a claim after the manager approves it?",
+    "expected": [
+      [
+        "finance"
+      ]
+    ],
+    "retrieval_hit": true,
+    "answer_correct": true,
+    "answer": "After a manager approves a claim, the claim proceeds to the Finance team for their approval and subsequent payment processing, followed by final validation.  \n[Source: Claims User Manual | C. Process Workflow > Screenshots (OCR)]",
+    "retrieved_ids": [
+      "claims-user-manual-09",
+      "claims-user-manual-02",
+      "claims-user-manual-04",
+      "claims-user-manual-12"
+    ],
+    "seconds": 7.79,
+    "error": null
+  },
+  {
+    "question": "How many casual leaves do I get in a year?",
+    "expected": "NOT FOUND",
+    "retrieval_hit": null,
+    "answer_correct": true,
+    "answer": "I couldn't find this in the policy documents. [Source: None]",
+    "retrieved_ids": [
+      "regularization-user-manual-23",
+      "regularization-user-manual-15",
+      "email-5-day-work-week-effectiv-01",
+      "email-5-day-work-week-effectiv-06"
+    ],
+    "seconds": 7.5,
+    "error": null
+  },
+  {
+    "question": "What is the maternity leave policy?",
+    "expected": "NOT FOUND",
+    "retrieval_hit": null,
+    "answer_correct": true,
+    "answer": "I couldn't find this in the policy documents.",
+    "retrieved_ids": [
+      "email-5-day-work-week-effectiv-06",
+      "claims-user-manual-03",
+      "regularization-user-manual-23",
+      "regularization-user-manual-15"
+    ],
+    "seconds": 7.66,
+    "error": null
+  }
+]

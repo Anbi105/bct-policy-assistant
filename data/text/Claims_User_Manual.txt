@@ -1,0 +1,36 @@
+DO.070 Claim Application –
+User Manual
+Document information: Document Name | Claims User Manual
+Document information: Version Number | V1.0
+Document information: Release Date
+Document information: Author | Bhargav Shankar
+Contents
+A. Preface:
+This manual serves as a comprehensive guide to assist the Associates in the respective claim process, it outlines the necessary sequential steps to be completed and the due Approval flow, unto claim settlement.
+B. Pre-requisites for initiating a Claim:
+.
+Ensure you are eligible as per the policy to avail any specific type of claim, for more details on eligibility please review the claim policy/contact BU HR for any clarifications.
+Necessary claim details are in place including proof to be attached/uploaded with the claim.
+Project related claims have to be claimed only against a project, ensure you are mapped/allocated to that project.
+C. Process Workflow:
+[Screenshot] Approve claim (Approval iterations willbe performed per approval level Provide the claim details in respective Save and submit claim for approval Ps] feilds as applicable Ensure Click on new claim attachments are uploaded and saved Finance team approval Yes cess payment END and validation
+D. Sequence of steps and actions for Claim Creation:
+Navigation:
+Login into BCT one login portal and choose oracle EBS.
+[Screenshot] Frequents Company: BCT BCT Intranet BCT Knowledge Hub eBuddy xOx empuls Tus R.E.A.P TMS 2.0 ORACLE E-BUSINESS SUITE Oracle E ORACLE FUSION APPLICATIONS Oracle Fusion HCM
+Once successfully logged-in, In the Navigation Pane select, BCT employee claim search
+[Screenshot] Navigator Personalize 4 BCT Reimbursement Claim Employee BCT Employee Claim Search i BCT Shift Allowance Access Employee i Regularization Update Employee Information
+Claim Reimbursement Dashboard:
+[Screenshot] ORACLE Claim Employee Logged InAs 116039 Search Reimbursement Claims Operating Unit Bahwan CyberTek Private Limited (COE) Currency Code INR Claim Number Q Claim From Date Claim To Date Claim Type Go Clear Nature Ww Approval Approval Approval Payment Claim Number Claim Date Claim Type Of Status Status Pending Pending Levels Claim Last Update Date Claim Payment Date Status Remz Claim With Level No results found. Copyright (c) 1998, 2020, Oracle and/or its affiliates. All rights reserved. About this Page Privacy Statement
+By default, this UI will list out the claim(s) applied by the associate so far.
+To create new claims, ‘Select’ create button; which will redirect to claim creation dashboard.
+Entering a Claim:
+[Screenshot] ORACLE BCT Reimbursement Claim Employee A k& 116039 Reimbursement Save Submit Cancel Operating Unit Bahwan CyberTek Private Limited (COE) Employee Number 116039 Currency Code INR Status Claim Number project No (P7886 Q Claim Date Claim Received Date Project Number Project Name Claim Payment Date Claim Type No Items found Nature of Claim Employee Name _Bhargav Shankar Add New Row ees Particluars From Date *To Date Amount Attachments Delete No search conducted. Copyright (c) 1998, 2020, Oracle and/or its affiliates. All rights reserved. About this Page Privacy Statement
+After selecting ‘Create’ button, the default details of the Employee, Entity, currency gets populated with the claim date.
+Then select the ‘claim type’ which will default the claim number as well, to enter claim details, select ‘Add New Row’ button
+The default details for respective claims will be displayed, for few types of claims like certifications, local conveyance, project expenses/get-together additional details as applicable to be update by the Associate.
+Once details are updated, select ‘Save’, button which will prompt a dialogue box with claim details.
+[Screenshot] ORACLE Logged in As 112907 Reimbursement Submit Cancel Operating Unit Sshwan CyberTek Private Limited (COE) Employee Number 112907 Currency Code INR Status Claim Number 120/2025-2026/28128 *projectNo 99357 Q claim Date 29-Aug-2025 t Claim Recetved Date Claim Type New Born Baby v Claim Payment Date Nature of Claim New Born Baby Budget Allowed Emptoyee Name) Mr. Jeyaram Sethursj Add New Row Particluars “To Date From Date Amount Attachments Delete 20-Aug-2025 te 16-Aug-2025 te 100 B Table Diagnostics 100 Information You are submitting the reimbursement cialm for the clalm date 2025-08-23 with claim detalls ae: Clalm Type: New Born Baby Claim Amount: 100.0 “Cancel Ok
+Review the correctness of claim details, click on ‘Ok’ or ‘Cancel’ button as applicable.
+[Screenshot] Search Reimbursement Claims Claim Number Claim 120/2025-2026/28140 29-Aug-2025 Table Diagnostics Claim Type New Born Baby Operating Unit Currency Code Claim Number From Date Ctalm To Date Clalm Type Nature Of WF Claim 85 status Submitied Bahwan CyberTek Linited (COE) INR Go Clear Approval Approval Claim Last Update Approval Pending With Pending Level Levels Date Claim Payment Date Status Remarks nar R MWLaksheni Subramanian/Mr. Varoon gandhi/Snehas S/Sunitha HR to 29-Aug-2025 2
+On claim submission using the dialogue box, the page redirects to the Dashboard, with the claim status and Approval info.
