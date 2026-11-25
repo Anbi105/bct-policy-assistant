@@ -1,283 +1,217 @@
-# <div align="center">BCT Nexus</div>
+BCT Nexus: Company Policy Assistant (RAG)
 
-<p align="center"><strong>An HR policy assistant for BCT employees, powered by retrieval-augmented generation.</strong></p>
+An AI assistant that answers employee questions in plain language, using only the company's policy documents. It retrieves the relevant sections, passes them to an LLM, and replies with a short answer plus the source document. If the answer is not in the documents, it says so instead of guessing.
 
-<p align="center">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3.10--3.12-blue">
-  <img alt="Groq" src="https://img.shields.io/badge/Groq-Hosted_LLM-orange">
-  <img alt="RAG" src="https://img.shields.io/badge/RAG-Hybrid_Search-purple">
-  <img alt="License" src="https://img.shields.io/badge/license-%3Cadd_license%3E-lightgrey">
-</p>
+Example: "What is the payroll cut-off date every month?" → "The payroll cut-off date is the 21st of every month. [Source: Email 5 Day Work Week Effective 15 July 2026]"
 
-BCT Nexus answers questions from the Claims, Regularization, and Timecard user manuals plus the 5 Day Work Week email. It retrieves relevant document excerpts, sends them to an LLM with a context-only prompt, and streams the response in a browser interface.
+Team: <Nexus> | Author: <Anbi Tibina K K>
 
-## Table of Contents
+Table of contents
+Features
+Architecture
+Knowledge base
+Tech stack
+Project structure
+Getting started
+Usage
+Evaluation
+Logging
+Design decisions
+Limitations
+Troubleshooting
+Features
+Retrieval-Augmented Generation (RAG): answers are grounded in the documents, not in the model's memory.
+Hybrid search: BM25 keyword search combined with semantic embeddings, merged using Reciprocal Rank Fusion.
+Source citations: every answer ends with the document it came from, and the UI shows the exact chunks retrieved.
+"I don't know" behaviour: questions outside the documents get a clear "couldn't find this" reply.
+OCR for screenshots: text inside screenshots and flowcharts in the Word manuals is extracted once during ingestion.
+Streaming web UI: answers appear word by word in the browser, using Python's built-in web server.
+Built-in evaluation: a 14-question test set with an automatic scorer.
+Full query logging: question, retrieved chunks with scores, final answer and timings for every request.
+Swappable LLM provider: Groq (default), Gemini, or a local Ollama model.
+Architecture
+Question time
+Ingestion (run once)
+docs/: 3 .docx + 1 .eml
+Convert to text + OCRimages
+Split into section chunks
+Embed chunks
+chunks.json +embeddings.npy
+User question
+Hybrid search: BM25 +embeddings, merged withRRF
+Top 4 chunks
+LLM with strict prompt
+Answer + source
+logs/queries.jsonl
 
-- [Features](#features)
-- [Pipeline](#pipeline)
-- [How It Works](#how-it-works)
-- [Knowledge Base](#knowledge-base)
-- [Quick Start](#quick-start)
-- [Configuration](#configuration)
-- [Evaluation](#evaluation)
-- [Project Structure](#project-structure)
-- [Logging](#logging)
-- [Limitations](#limitations)
-- [Future Improvements](#future-improvements)
-- [Team](#team)
+The slow work (reading files, OCR, embedding) happens once in ingest.py. At question time, search takes milliseconds and the hosted LLM streams the answer.
 
-## Features
+Knowledge base
+Document	Format
+5 Day Work Week, effective 15 July 2026	.eml (converted to text)
+Regularization User Manual	.docx
+Timecard User Manual	.docx
+Claims User Manual	.docx
 
-| Feature | Details |
-|---|---|
-| Document-grounded answers | Uses only retrieved context and returns a not-found response when context is insufficient |
-| Hybrid retrieval | Combines BM25 keyword ranking with dense embeddings and Reciprocal Rank Fusion |
-| Screenshot OCR | Reads embedded Word screenshots and flowcharts once during ingestion |
-| Streaming UI | Sends newline-delimited streaming events to a responsive browser chat |
-| Source inspection | Displays retrieved chunks and BM25, vector, and RRF scores |
-| Retrieval fallback | Continues with BM25-only search if embeddings are disabled or unavailable |
-| Evaluation suite | Separately measures retrieval and answer correctness |
+After ingestion the documents become 73 chunks (Timecard 29, Regularization 24, Claims 13, Email 7). The converted text of every document is saved in data/text/ so the conversion can be inspected.
 
-## Pipeline
+Tech stack
+Area	Choice
+Language	Python 3.10 to 3.12
+Document parsing	python-docx, Python email module
+OCR	Tesseract via pytesseract and Pillow
+Embeddings	fastembed with BAAI/bge-small-en-v1.5
+Keyword search	BM25 (implemented in rag.py)
+Vector store	NumPy array (the corpus is small, so no database is needed)
+LLM	Groq llama-3.3-70b-versatile (default), temperature 0
+Server / UI	http.server with a single-page HTML UI
+Project structure
+BCT_Nexus/
+├── docs/                  # Knowledge base documents (.docx, .eml)
+├── data/
+│   ├── text/              # Plain-text version of every document
+│   ├── chunks.json        # Generated chunks
+│   └── ocr_cache.json     # Cached OCR output
+├── logs/
+│   ├── queries.jsonl      # One log line per question
+│   └── eval_results.json  # Latest evaluation results
+├── ui/index.html          # Web interface
+├── config.py              # All settings (reads .env)
+├── ingest.py              # Documents -> text -> chunks -> embeddings
+├── ocr.py                 # Screenshot text extraction
+├── convert_email.py       # Standalone .eml -> .txt conversion
+├── rag.py                 # Retrieval, prompt, LLM call, logging
+├── server.py              # Web server
+├── eval.py                # Evaluation runner
+├── evals.json             # Test questions with expected answers
+├── requirements.txt
+├── .env.example           # Template for your settings
+└── README.md
+Getting started
+Prerequisites
+Python 3.10 to 3.12
+Tesseract OCR (only needed if you re-run OCR; the OCR results are already cached in data/ocr_cache.json)
+A free Groq API key
+Installation
+bash
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
 
-```mermaid
-flowchart LR
-  A[Source documents] --> B[Ingest and OCR]
-  B --> C[Text and chunks]
-  C --> D[Hybrid search]
-  D --> E[BM25]
-  D --> F[Embeddings]
-  E --> G[Reciprocal Rank Fusion]
-  F --> G
-  G --> H[Hosted LLM]
-  H --> I[Streaming UI]
-  H --> J[Query logs]
-  G --> K[Eval runner]
-  K --> L[Eval results]
-```
+Create a virtual environment and install dependencies.
 
-## How It Works
+Windows (PowerShell)
 
-### Ingestion
+powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+copy .env.example .env
 
-`ingest.py` reads supported files from `docs/`, converts DOCX and EML files to text, and writes text versions to `data/text/`.
+macOS / Linux
 
-- DOCX: paragraphs and table rows are read in document order.
-- EML: subject, sender, date, and the preferred plain or HTML body are converted to text.
-- OCR: embedded Word images are processed with Tesseract once during ingestion and cached in `data/ocr_cache.json`.
-
-OCR is not performed for live questions. It also is not applied to `.txt` or `.md` content.
-
-### Chunking
-
-The default maximum chunk size is **180 words**.
-
-Chunks are split at rule-based major headings such as `A. Preface:` or numbered headings, and at subsection headings. Long sections are divided further. When a split occurs, the final line of the previous piece is retained as a one-line overlap. OCR text is placed in separate `Screenshots (OCR)` chunks. The system omits lines with fewer than three words and groups table metadata into `Document information` chunks.
-
-Each chunk starts with its document title and section name.
-
-### Retrieval
-
-The retriever uses:
-
-- **BM25:** custom implementation with `k1=1.5`, `b=0.75`, stop-word removal, light stemming, and six-character token truncation.
-- **Embeddings:** `BAAI/bge-small-en-v1.5`, normalized to unit vectors.
-- **Cosine similarity:** dot product over normalized query and document vectors.
-- **Reciprocal Rank Fusion:** `sum(1 / (60 + rank))`, where ranks start at zero.
-- **Top-k:** 4 chunks by default.
-
-BM25 ranking and embedding ranking are fused when embeddings are enabled and available. Otherwise, retrieval uses BM25 only.
-
-### Prompt and Streaming
-
-The system prompt requires the model to use only supplied context, preserve exact numbers and dates, keep answers short, and identify the source. If the answer is absent, it must say:
-
-> I couldn't find this in the policy documents.
-
-The hosted provider receives an OpenAI-compatible `chat/completions` request with streaming enabled, temperature `0`, and a default limit of 350 answer tokens. `server.py` sends newline-delimited JSON events to the UI.
-
-### Hosted Providers
-
-The default configuration uses:
-
-- Provider: `groq`
-- Model: `llama-3.3-70b-versatile`
-- Groq key environment variable: `GROQ_API_KEY`
-
-Gemini and Ollama-compatible endpoints are also supported in code. The earlier local Ollama approach used `qwen2.5:3b`; the current README setup may use Groq, Gemini, or Ollama through configuration.
-
-## Knowledge Base
-
-| File | Content |
-|---|---|
-| `docs/Claims_User_Manual.docx` | Claims process and workflow |
-| `docs/Regularization_User_Manual.docx` | Attendance regularization options and steps |
-| `docs/Timecard_User_Manual.docx` | Timecard entry and approval process |
-| `docs/Email_5_Day_Work_Week_Effective_15_July_2026.eml` | 5-Day Work Week guidelines |
-
-Leave-plan and holiday-policy documents are not included. In particular, casual leave, maternity leave, and general leave/holiday policies are outside the current knowledge base.
-
-## Quick Start
-
-### Prerequisites
-
-- Python 3.10, 3.11, or 3.12
-- Tesseract OCR
-- Internet access for the hosted LLM and the first embedding-model download
-- A Groq API key for the default provider: <https://console.groq.com/keys>
-
-On macOS, install Tesseract with `brew install tesseract`. On Debian/Ubuntu Linux, use `sudo apt install tesseract-ocr`.
-
-### Windows PowerShell
-
-```powershell
-cd C:\path\to\BCT_Nexus
-
-py -3.11 -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
-
-Copy-Item .env.example .env
-python ingest.py
-python server.py
-```
-
-Open `http://127.0.0.1:8000` if the browser is not opened automatically.
-
-### macOS / Linux
-
-```bash
-cd /path/to/BCT_Nexus
-
+bash
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install -r requirements.txt
-
+pip install -r requirements.txt
 cp .env.example .env
-python ingest.py
-python server.py
-```
+Configuration
 
-### API Key Setup
+Open .env and set your key (no quotes, no spaces):
 
-Create a Groq API key, then add it to `.env`:
-
-```text
+env
 LLM_PROVIDER=groq
-GROQ_API_KEY=<your_groq_api_key>
-```
+GROQ_API_KEY=your_groq_key_here
 
-Do not commit `.env` or paste API keys into this README.
+.env is listed in .gitignore and must never be committed.
 
-## Configuration
+Variable	Default	Purpose
+LLM_PROVIDER	groq	groq, gemini or ollama
+LLM_MODEL	provider default	Override the model name
+TOP_K	4	Number of chunks sent to the LLM
+USE_EMBEDDINGS	1	Set to 0 for keyword-only search
+USE_OCR	1	Set to 0 to skip screenshot OCR
+PORT	8000	Web server port
+Build the knowledge base
+bash
+python ingest.py
 
-All variables below are read or referenced by `config.py`.
+This converts the documents to text, splits them into chunks and creates embeddings. The first run downloads a small embedding model (about 130 MB). Re-run it whenever a document changes.
 
-| Variable | Default | Purpose |
-|---|---|---|
-| `LLM_PROVIDER` | `groq` | Provider: `groq`, `gemini`, or `ollama` |
-| `GROQ_API_KEY` | empty | Groq API key |
-| `GEMINI_API_KEY` | empty | Gemini API key |
-| `LLM_API_KEY` | provider key fallback | Optional generic API-key override |
-| `LLM_MODEL` | provider preset | Overrides the selected provider's model |
-| `LLM_BASE_URL` | provider preset | Overrides the OpenAI-compatible API base URL |
-| `MAX_ANSWER_TOKENS` | `350` | Maximum generated answer tokens |
-| `TOP_K` | `4` | Number of chunks sent to the model |
-| `USE_EMBEDDINGS` | `1` | Set to `0` to use BM25 only |
-| `USE_OCR` | `1` | Set to `0` to skip OCR during ingest |
-| `TESSERACT_CMD` | empty | Optional full path to the Tesseract executable |
-| `EMBED_MODEL` | `BAAI/bge-small-en-v1.5` | FastEmbed embedding model |
-| `PORT` | `8000` | Local web-server port |
+Usage
+Start the assistant
+bash
+python server.py
 
-Provider presets:
+Open http://127.0.0.1:8000. Type a question or click an example. Under each answer, Sources used shows the retrieved chunks and the timings.
 
-| Provider | Base URL | Model | Key variable |
-|---|---|---|---|
-| Groq | `https://api.groq.com/openai/v1` | `llama-3.3-70b-versatile` | `GROQ_API_KEY` |
-| Gemini | `https://generativelanguage.googleapis.com/v1beta/openai` | `gemini-2.5-flash` | `GEMINI_API_KEY` |
-| Ollama | `http://localhost:11434/v1` | `qwen2.5:3b` | none |
+Run the evaluation
+bash
+python eval.py                    # retrieval + LLM answers
+python eval.py --retrieval-only   # search only, no API key needed
+Evaluation
 
-## Evaluation
+evals.json contains 14 questions whose correct answers were taken directly from the documents: 12 answerable questions and 2 that are deliberately not in the documents (the correct behaviour is to say "I couldn't find this").
 
-`evals.json` contains 14 questions: 12 answerable questions and 2 negative cases. Retrieval is scored separately from answer correctness.
+For each question, eval.py checks two things separately:
 
-```powershell
-python eval.py
-python eval.py --retrieval-only
-```
+Retrieval hit: did the retrieved chunks contain the facts needed?
+Answer correct: does the final answer contain the expected facts (or, for out-of-scope questions, say it couldn't find the answer)?
 
-- Full evaluation checks both retrieval and LLM answers.
-- `--retrieval-only` needs no API key.
-- Results are written to `logs/eval_results.json`.
-- `eval.py` retries HTTP 429 responses and pauses between full-evaluation questions.
+Separating the two shows whether a wrong answer is a search problem or a generation problem.
 
-**Evaluation score:** <add your eval score>
+Result: 14 / 14 answers correct, 12 / 12 retrieval hits (see logs/eval_results.json).
 
-**Retrieval hit score:** <add your retrieval hit score>
+#	Question	Expected	Result
+1	How many hours of office clock-in must an associate complete each day?	9 hours	Pass
+2	What is the payroll cut-off date every month?	21st	Pass
+3	Who is eligible for the five-day work week?	Grade G5 and above	Pass
+4	What happens to days not regularized and with no leave applied?	Loss of Pay (LOP)	Pass
+5	Who must approve exceptions to the five-day work week?	Reporting Manager, Business Head, HRBP	Pass
+6	How should I mark attendance when working from a client site?	ON-SITE	Pass
+7	Within how many days should a regularization request be performed?	15 days	Pass
+8	What is the minimum biometric attendance needed to apply for regularization?	More than 7 hours	Pass
+9	When should I use the Missed to Swipe option?	Either in-time or out-time missed	Pass
+10	For India associates, what is the maximum normal hours in a timecard per day?	9 hours	Pass
+11	Who do I contact if the task I need is not in the timecard dropdown?	RMG	Pass
+12	What happens to a claim after the manager approves it?	Goes to Finance	Pass
+13	How many casual leaves do I get in a year?	Not in documents	Pass (says not found)
+14	What is the maternity leave policy?	Not in documents	Pass (says not found)
+Logging
 
-## Project Structure
+Every question, from the UI or the evals, appends one JSON line to logs/queries.jsonl:
 
-```text
-BCT_Nexus/
-├── config.py                 # Paths, provider presets, and environment settings
-├── ingest.py                 # Converts documents and builds chunks and embeddings
-├── ocr.py                    # Tesseract OCR and image-result cache
-├── convert_email.py          # Standalone EML-to-text converter
-├── rag.py                    # BM25, embeddings, RRF, prompts, streaming, and logging
-├── server.py                 # Built-in Python web server and NDJSON endpoints
-├── eval.py                   # Retrieval and answer evaluation runner
-├── evals.json                # Evaluation questions and expected facts
-├── requirements.txt          # Python dependencies
-├── .env.example              # Environment-variable template
-├── ui/index.html             # Browser chat interface
-├── docs/                     # Source DOCX and EML knowledge-base files
-├── data/
-│   ├── text/                 # Converted text files
-│   ├── chunks.json           # Chunk metadata and text
-│   ├── embeddings.npy        # Dense chunk embeddings
-│   └── ocr_cache.json        # Cached OCR results
-└── logs/
-    ├── queries.jsonl         # One runtime query record per line
-    └── eval_results.json     # Per-question evaluation results
-```
+json
+{
+  "timestamp": "2026-11-22T13:55:18",
+  "tag": "app",
+  "question": "What is the payroll cut-off date?",
+  "retrieved": [
+    {"id": "...", "doc_title": "...", "section": "...", "bm25": 12.36, "vector": 0.79, "rrf": 0.0328, "text": "..."}
+  ],
+  "answer": "...",
+  "llm": "groq:llama-3.3-70b-versatile",
+  "retrieval_ms": 4.1,
+  "first_token_s": 0.52,
+  "total_s": 1.1
+}
 
-## Logging
+This records the question, which parts of the documents were retrieved (with scores), and the final answer. The tag field separates UI questions (app) from evaluation runs (eval).
 
-Every question asked through the UI or evaluation runner is appended to `logs/queries.jsonl`. A record includes the timestamp, tag, question, retrieved chunk metadata and scores, answer, errors, provider/model, and timing fields.
+Design decisions
 
-The UI also keeps up to 40 recent conversations in browser `localStorage`; this history is not stored in the server database.
+Chunking by section. The manuals have headings such as "B. Pre-requisites" and the email has numbered guidelines such as "5. Salary Impact". ingest.py detects these headings and creates one chunk per section (roughly 25 to 180 words). Longer sections are split with one line of overlap. Every chunk starts with [Document | Section], so both the search and the LLM know where the text came from. Small, topic-focused chunks match questions more precisely than whole pages.
 
-## Screenshot
+Hybrid retrieval. BM25 is strong on exact terms such as "21st", "G5" and "LOP". Embeddings handle different wording of the same idea. The two rankings are merged with Reciprocal Rank Fusion, where each chunk scores the sum of 1 / (60 + rank) across both rankings. The top 4 chunks go to the LLM, so related facts from different documents can reach the model together.
 
-Add the UI image at `docs/screenshots/ui.png`.
+Grounded prompt. The system prompt tells the model to use only the supplied excerpts, to reply with a fixed "couldn't find" sentence when the answer is missing, to quote numbers exactly, to state each limit separately when sources differ, and to cite the source. Temperature is 0 for repeatable answers.
 
-<p align="center">
-  <img src="docs/screenshots/ui.png" alt="BCT Nexus UI screenshot" width="800">
-</p>
+No vector database. With about 73 chunks, a NumPy array is enough and keeps the system easy to understand.
 
-## Limitations
+Ingestion separated from querying. OCR and embedding run once, so answering a question stays fast.
 
-- OCR can jumble flowchart word order and miss words.
-- Heading detection is rule-based and may fail with differently formatted documents.
-- OCR text is separated from the main document text, so it does not always preserve visual layout.
-- The generated text and evaluation results depend on Tesseract and embedding availability.
-- The knowledge base does not cover leave plans or holiday policies.
-- The source manual's `C. Workflow:` section is empty.
-- Streaming answers are context-grounded, but the LLM can still fail to combine or interpret retrieved excerpts correctly.
-
-## Future Improvements
-
-- Add higher-quality or layout-aware OCR processing.
-- Add document structure-aware chunking instead of regex heading rules.
-- Add a persistent vector database for larger knowledge bases.
-- Add citation links with source passages and page locations.
-- Expand the knowledge base and evaluation set.
-- Add automated source and configuration validation.
-- Add authenticated access if the UI is deployed beyond the local machine.
-
-## Team
-
-| Member | GitHub | Contribution |
-|---|---|---|
-| <Member 1 name> | <GitHub link> | <what they built> |
-| <Member 2 name> | <GitHub link> | <what they built> |
+Limitations
+Heading detection uses simple rules. A document with different formatting may need a rule adjustment.
+OCR on flowcharts is imperfect: words can come out in a jumbled order or be missed. OCR text is stored as separate chunks labelled Screenshots (OCR) to keep it away from the main text.
+The "C. Workflow" section of the Regularization manual is empty in the supplied file.
+Leave plan and holiday policy documents were not part of the supplied knowledge base, so those questions cannot be answered.
+The assistant has no conversation memory: each question is answered independently.
