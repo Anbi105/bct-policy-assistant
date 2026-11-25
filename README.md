@@ -20,7 +20,7 @@ and replies to employees in plain language, with a source for every answer.
 ![Retrieval](https://img.shields.io/badge/Retrieval-12%2F12_Hits-2EA44F?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Working-2EA44F?style=flat-square)
 
-**Team:** `<Team Name>` (solo) &nbsp;|&nbsp; **Author:** Anbi105
+**Team:** `<Nexus>` (solo) &nbsp;|&nbsp; **Author:** Anbi105
 
 </div>
 
