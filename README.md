@@ -253,13 +253,6 @@ bct-policy-assistant/
 
 ---
 
-## 10. Limitations
-
-- Leave plan and holiday policy documents were not part of the supplied knowledge base, so those questions cannot be answered.
-- Heading detection uses simple rules, so differently formatted documents may need a rule adjustment.
-- OCR on flowcharts is imperfect and can miss or reorder words.
-- Each question is answered independently, with no conversation memory.
-
 ---
 
 <div align="center">
